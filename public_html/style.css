@@ -13015,3 +13015,9 @@ body:not(.no-transition) #wrapper,
 /*---------------
 ----Custom Edits-----
 ---------------*/
+
+@media (min-width: 992px) and (max-width: 1100px){
+    #logo-img {
+        height: 60px;
+    }
+}
