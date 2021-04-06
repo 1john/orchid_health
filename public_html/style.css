@@ -13021,3 +13021,7 @@ body:not(.no-transition) #wrapper,
         height: 60px;
     }
 }
+
+.white-link {
+	color: white;
+}
