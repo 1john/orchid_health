@@ -488,8 +488,8 @@ footer h2{
     position: relative;
     top: 30px
 }
-.footer-links{
-    margin-top: 25px;
+.footer-links {
+    padding-top: 50px;
 }
 .footer-links a{
     display: inline-block;
@@ -501,8 +501,10 @@ footer h2{
 }
 
 .footer-content{
+    padding-top: 60px;
     font-size: 17px;
     color: #fff;
+    padding-bottom: 20px;
 }
 .newsletter-box h4{
     color: #fff;
