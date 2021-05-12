@@ -13025,3 +13025,18 @@ body:not(.no-transition) #wrapper,
 .white-link {
 	color: white;
 }
+
+.email_signup {
+	background-image: url('images/orchid-content/email_signup_bg.jpg');
+	background-size: cover;
+	background-position: 100 0;
+	margin-bottom: 20px;
+	padding-bottom: 150px;
+	padding-top: 150px
+}
+
+.email_signup_header {
+	color: white;
+	text-shadow: 0px 0px 3px black;
+	font-weight: 900;
+}
