@@ -8,17 +8,17 @@
     <!-- Stylesheets
     ============================================= -->
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic|Libre+Baskerville:400,700" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
-    <link rel="stylesheet" href="style.css" type="text/css" />
-    <link rel="stylesheet" href="css/swiper.css" type="text/css" />
-    <link rel="stylesheet" href="css/dark.css" type="text/css" />
-    <link rel="stylesheet" href="css/font-icons.css" type="text/css" />
-    <link rel="stylesheet" href="css/animate.css" type="text/css" />
-    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
+    <link rel="stylesheet" href="../css/bootstrap.css" type="text/css" />
+    <link rel="stylesheet" href="../style.css" type="text/css" />
+    <link rel="stylesheet" href="../css/swiper.css" type="text/css" />
+    <link rel="stylesheet" href="../css/dark.css" type="text/css" />
+    <link rel="stylesheet" href="../css/font-icons.css" type="text/css" />
+    <link rel="stylesheet" href="../css/animate.css" type="text/css" />
+    <link rel="stylesheet" href="../css/magnific-popup.css" type="text/css" />
 
-    <link rel="stylesheet" href="style.extend.css" type="text/css" />
+    <link rel="stylesheet" href="../style.extend.css" type="text/css" />
 
-    <link rel="stylesheet" href="css/responsive.css" type="text/css" />
+    <link rel="stylesheet" href="../css/responsive.css" type="text/css" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!--[if lt IE 9]>
     <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
@@ -27,6 +27,8 @@
     <!-- Document Title
     ============================================= -->
     <title>Orchid Health</title>
+
+    <!-- Google Analytics -->
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -35,8 +37,29 @@
 
       ga('create', 'UA-89314147-1', 'auto');
       ga('send', 'pageview');
-
     </script>
+    <!-- End Google Analytics -->
+
+    <!-- Facebook Pixel Code -->
+    <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window,document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+     fbq('init', '290368425435821'); 
+    fbq('track', 'PageView');
+    </script>
+    <noscript>
+     <img height="1" width="1" 
+    src="https://www.facebook.com/tr?id=290368425435821&ev=PageView
+    &noscript=1"/>
+    </noscript>
+    <!-- End Facebook Pixel Code -->
+
 </head>
 
 <body class="stretched" >
@@ -72,10 +95,10 @@
                 <!-- Logo
                 ============================================= -->
                 <div id="logo">
-                    <a href="index.html" class="standard-logo" data-dark-logo="images/orchid-content/logo-white.png">
-                        <img src="images/orchid-content/orchid-logomark-wade-creek-clinic.png" alt="Orchid Logo">
+                    <a href="index.html" class="standard-logo" data-dark-logo="../images/orchid-content/logo-white.png">
+                        <img class="logo-img" src="../images/orchid-content/orchid-logomark-wade-creek-clinic.png" alt="Orchid Logo">
                     </a>
-                    <a href="index.html" class="retina-logo" data-dark-logo="images/orchid-content/orchid-logomark-wade-creek-clinic.png"><img src="images/orchid-content/logo-dark.png" alt="Orchid Logo"></a>
+                    <a href="index.html" class="retina-logo" data-dark-logo="../images/orchid-content/orchid-logomark-wade-creek-clinic.png"><img src="../images/orchid-content/logo-dark.png" alt="Orchid Logo"></a>
                 </div><!-- #logo end -->
 
                 <!-- Primary Navigation
@@ -89,7 +112,7 @@
                         <li class=""><a href="#" data-href="#team"><div>Your Care Team</div></a></li>
                         <li class=""><a href="#" data-href="#contact-us"><div>Contact Us</div></a></li>
                         <li class=""><a href="#" data-href="#patient-forms"><div>Patient Forms</div></a></li>
-                        <li class=""><a href="#" data-href="#careers"><div>Careers</div></a></li>
+                        <li class=""><a href="https://blog.orchidhealth.org"><div>Blog</div></a></li>
                         <li class="nav-button"><a href="https://15142.portal.athenahealth.com/"><div>Patient Portal</div></a></li>
                     </ul>
 
@@ -102,7 +125,7 @@
     </header><!-- #header end -->
 
     <section id="slider" class="slider-parallax swiper_wrapper full-screen clearfix">
-        <div class="force-full-screen full-screen dark" style="background-image: url('images/orchid-content/estacada-home-page.jpg'); background-position: 50% 0; background-size: cover">
+        <div class="force-full-screen full-screen dark" style="background-image: url('../images/orchid-content/estacada-home-page.jpg'); background-position: 50% 0; background-size: cover">
 
             <div class="container clearfix">
                 <div class="slider-caption">
@@ -110,7 +133,7 @@
                     <h3 data-animate="fadeInUp" data-delay="400">Exceptional, Local Healthcare for You and Your Family!</h3>
                     <a data-animate="fadeInUp" data-delay="600" href="#" data-scrollto="#about-us" class="button button-border button-light button-rounded button-large noleftmargin nobottommargin" style="margin-top: 30px;">LEARN MORE</a>
                     <p>
-                        <a href="#" data-scrollto="#about-us" class="" style="display: inline-block; margin-top: 30px; width: 168px; text-align: center"><img src="images/orchid-content/angle-down.png" alt="Goto next section"> </a>
+                        <a href="#" data-scrollto="#about-us" class="" style="display: inline-block; margin-top: 30px; width: 168px; text-align: center"><img src="../images/orchid-content/angle-down.png" alt="Goto next section"> </a>
                     </p>
                 </div>
             </div>
@@ -136,7 +159,7 @@
                             </div>
                             <br>
                             <div class="col-md-4  ">
-                                <img src="images/orchid-content/quality-icon.png" style="margin-bottom: 15px">
+                                <img src="../images/orchid-content/quality-icon.png" style="margin-bottom: 15px">
                                 <div class="heading-block nobottomborder" style="margin-bottom: 15px;">
                                     <h2>Quality</h2>
                                 </div>
@@ -146,11 +169,11 @@
                                     health outcomes in a convenient,
                                     non-rushed experience.
                                 </p>
-                                <a style="font-size: 16px" href="learn/quality-metrics-dashboard-estacada.pdf" target="_blank" >See 2018 Quality Dashboard Here</a>
+                                <a style="font-size: 16px" href="learn/quality-metrics-dashboard-estacada.pdf" target="_blank" >See 2020 Quality Dashboard Here</a>
                             </div>
 
                             <div class="col-md-4 ">
-                                <img src="images/orchid-content/compassion-icon.png" style="margin-bottom: 15px">
+                                <img src="../images/orchid-content/compassion-icon.png" style="margin-bottom: 15px">
                                 <div class="heading-block nobottomborder" style="margin-bottom: 15px;">
                                     <h2>Compassion</h2>
                                 </div>
@@ -163,7 +186,7 @@
                             </div>
 
                             <div class="col-md-4 ">
-                                <img src="images/orchid-content/innovation-icon.png" style="margin-bottom: 15px">
+                                <img src="../images/orchid-content/innovation-icon.png" style="margin-bottom: 15px">
                                 <div class="heading-block nobottomborder" style="margin-bottom: 15px;">
                                     <h2>Innovation</h2>
                                 </div>
@@ -180,7 +203,7 @@
                             <div class="col-lg-12 text-center">
                                 <a href="#" data-scrollto="#services" class="button button-border button-rounded button-large buton-blue-border noleftmargin nobottommargin" style="margin-top: 30px;">OUR SERVICES</a>
                                 <p>
-                                    <a href="#" data-scrollto="#services" class="" style="display: inline-block; margin-top: 30px; margin-bottom: 50px; width: 168px; text-align: center"><img src="images/orchid-content/angle-down-dark.png" alt="Goto next section"> </a>
+                                    <a href="#" data-scrollto="#services" class="" style="display: inline-block; margin-top: 30px; margin-bottom: 50px; width: 168px; text-align: center"><img src="../images/orchid-content/angle-down-dark.png" alt="Goto next section"> </a>
                                 </p>
                             </div>
                         </div>
@@ -188,6 +211,13 @@
 
                 </div>
             </div>
+
+            <!-- PROMO BANNER -->
+            <div class="promo_banner" style="text-align: center; padding: 15px; background-color: #77C9D4; margin-bottom: 20px">
+                <p style="color: white; font-size: 19px; margin-bottom: 0px">We're hiring! Check out our job postings <a style="color: #307272; border-bottom: 1px solid #307272" target="_blank" href="https://app.trinethire.com/companies/34751-orchid-health/jobs">here</a></p>
+            </div>
+
+            <!-- START SERVICES SECTION -->
             <div class="row" id="services">
                 <div class="col-md-4">
                     <div class="service-box blue">
@@ -206,7 +236,7 @@
                 </div>
                 <div class="col-md-4" >
                     <div class="service-box">
-                        <img src="images/orchid-content/prevention%20and%20wellness%20icon.png" alt="Prevention & Wellness">
+                        <img src="../images/orchid-content/prevention%20and%20wellness%20icon.png" alt="Prevention & Wellness">
                         <h2>
                             Prevention & Wellness
                         </h2>
@@ -220,9 +250,9 @@
                 </div>
                 <div class="col-md-4">
                     <div class="service-box">
-                        <img src="images/orchid-content/assesment%20and%20treatment%20icon.png" alt="Prevention & Wellness">
+                        <img src="../images/orchid-content/assesment%20and%20treatment%20icon.png" alt="Prevention & Wellness">
                         <h2>
-                            Assesment & Treatment
+                            Assessment & Treatment
                         </h2>
                         <p>
                             Injury treatment, general illness,
@@ -234,7 +264,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="service-box">
-                        <img src="images/orchid-content/diagnostic%20testing%20icon.png" alt="Prevention & Wellness">
+                        <img src="../images/orchid-content/diagnostic%20testing%20icon.png" alt="Prevention & Wellness">
                         <h2>
                             Diagnostic Testing
                         </h2>
@@ -249,36 +279,58 @@
                 </div>
                 <div class="col-md-4">
                     <div class="service-box">
-                        <img src="images/orchid-content/immunizations.png" alt="Prevention & Wellness">
+                        <img src="../images/orchid-content/immunizations.png" alt="Prevention & Wellness">
                         <h2>
                             Immunizations
                         </h2>
                         <p>
-                            We offer immunizations
-                            for all ages.
-                            Click below to see our full list.
+                            We offer all required immunizations for infants, children, teenagers, and adults. Click below to see our full list.
                         </p>
-                        <a href="learn/orchid-services.pdf"  class="" target="_blank">LEARN MORE</a>
+                        <a href="https://drive.google.com/file/d/17jfrmz6_fKTNrNRo3NO47J2t3dn_jDfQ/view?usp=sharing" class="" target="_blank">LEARN MORE</a>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="service-box">
-                        <img src="images/orchid-content/counseling%20icon.png" alt="Prevention & Wellness">
+                        <img src="../images/orchid-content/counseling%20icon.png" alt="Prevention & Wellness">
                         <h2>
                             Behavioral Health
                         </h2>
                         <p>
-                            Your mental and behavioral health is just as important to overall wellness as your physical health. Our primary care providers are trained to assess your full health, and our behavioral health specialist is available if you would like to discuss any emotional and/or behavioral needs in more detail.
+                            Your mental and behavioral health is just as important to overall wellness as your physical health. Our behavioral health specialists are available to help with mental health, addiction, nutrition, and life planning.
                         </p>
                         <a href="learn/bhc_brochure.pdf"  class="" target="_blank">LEARN MORE</a>
                     </div>
                 </div>
+                <div class="col-md-4">
+                    <div class="service-box">
+                        <img src="../images/orchid-content/pediatric_icon.png" alt="Pediatric Care" style="margin-bottom: 10px">
+                        <h2>
+                            Pediatric Care
+                        </h2>
+                        <p>
+                            Sports physicals, child well visits, and children immunizations.
+                        </p>
+                        <a href="https://blog.orchidhealth.org/post/pediatric-visits-at-estacada-wade-creek-clinic "  class="" target="_blank">LEARN MORE</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-box">
+                        <img src="../images/orchid-content/school_icon.png" alt="School Health Clinic" style="margin-bottom: 10px">
+                        <h2>
+                            School Based Health Clinic
+                        </h2>
+                        <p>
+                            Our partnership with the Estacada District provides free healthcare to student children and adolescents in the district.
+                        </p>
+                        <a href="#" data-scrollto="#sbhc" class="">LEARN MORE</a>
+                    </div>
+                </div>
             </div>
-
+            <!-- END SERVICES SECTION -->
 
             <div class="row common-height clearfix" id="our-story" style="margin-bottom: 30px">
 
-                <div class="col-sm-5 col-padding" style="background: url('images/orchid-content/our-story-quote-block.jpg') center center no-repeat; background-size: cover;"></div>
+                <div class="col-sm-5 col-padding" style="background: url('../images/orchid-content/our-story-quote-block.jpg') center center no-repeat; background-size: cover;"></div>
 
                 <div class="col-sm-7 col-padding push-30" style="background: #77C9D4;">
                     <div>
@@ -288,7 +340,7 @@
                         <p>Orchid Health was founded with the mission of solving the problems and inefficiencies of modern American healthcare, and to make sure that no patient or community lacked access due to the current system. Our founders, Orion Falvey and Oliver Alexander spent years working with a number of Oregon’s top healthcare policy leaders, primary care providers, and most importantly community members themselves in order to improve the health and well-being of all patients and to create a model of health care based on quality, compassion, and innovation.</p>
                         <a href="#" data-scrollto="#our-model" class="button button-border button-rounded button-large button-light noleftmargin nobottommargin" style="margin-top: 30px;">OUR MODEL</a>
                         <p>
-                            <a href="#" data-scrollto="#our-model" class="" style="display: inline-block; margin-top: 30px; width: 168px; text-align: center"><img src="images/orchid-content/angle-down.png" alt="Goto next section"> </a>
+                            <a href="#" data-scrollto="#our-model" class="" style="display: inline-block; margin-top: 30px; width: 168px; text-align: center"><img src="../images/orchid-content/angle-down.png" alt="Goto next section"> </a>
                         </p>
                     </div>
                 </div>
@@ -297,8 +349,8 @@
             <div class="row clearfix " id="our-model" style="margin-bottom: 30px">
 
                 <div class="col-sm-5 no-right-padding" >
-                    <img src="images/orchid-content/our-model-image-01.jpg" class="img-responsive img-full" style="margin-bottom: 30px">
-                   <!-- <img src="images/orchid-content/our-model-image-02.png" class="img-responsive img-full"> -->
+                    <img src="../images/orchid-content/our-model-image-01.jpg" class="img-responsive img-full" style="margin-bottom: 30px">
+                   <!-- <img src="../images/orchid-content/our-model-image-02.png" class="img-responsive img-full"> -->
                 </div>
 
                 <div class="col-sm-7 col-padding push-30" style="background: #F7F4F2; ">
@@ -307,16 +359,7 @@
                             <h2>Exceptional Patient Experience.</h2>
                         </div>
                         <p>
-                            Our goal is for our patients to feel listened to, have enough 
-                             time to ask necessary questions, and be able to discuss what’s
-                              most important to them with their provider. In order to accomplish 
-                              this we offer hour long initial visits and 30 minute follow up 
-                              visits. Additionally we understand the need for accessible 
-                              primary and urgent care when a health concern arises, which is 
-                              why we offer same-day visits (by appointment) and expedited new 
-                              patient visits. In order to continuously improve the experience 
-                              our patients receive, we constantly ask for feedback and involve 
-                              patients in our decision making process.
+                            Our goal is for our patients to feel listened to, have enough time to ask necessary questions, and be able to discuss what’s most important to them with their provider. In order to accomplish this we offer hour long initial visits and 30 minute follow up visits. Additionally we understand the need for accessible primary and urgent care when a health concern arises, which is why we offer same-day visits (by appointment) and expedited new patient visits. In order to continuously improve the experience our patients receive, we constantly ask for feedback and involve patients in our decision making process.
                         </p>
                       
                         <a href="learn/orchid-services.pdf" class="button button-border button-rounded button-large buton-blue-border noleftmargin nobottommargin" style="margin-top: 30px;" target="_blank">SERVICES</a>
@@ -327,7 +370,7 @@
             <!-- START INSURANCE AND PRICING SECTION -->
             <div class="row common-height clearfix" id="insurance" style="margin-bottom: 30px">
 
-                <div class="col-sm-5  pull-15" style="background: url('images/orchid-content/insurance%20and%20pricing.jpg') center center no-repeat; background-size: cover;"></div>
+                <div class="col-sm-5  pull-15" style="background: url('../images/orchid-content/insurance%20and%20pricing.jpg') center center no-repeat; background-size: cover;"></div>
 
                 <div class="col-sm-7" style="">
                     <div>
@@ -346,15 +389,15 @@
                                     <h2 style="text-align:left">Fee Schedules</h2>
                                     <table>
                                         <div class="file-download">
-                                            <img src="images/orchid-content/file-icon-small.png">
+                                            <img src="../images/orchid-content/file-icon-small.png">
                                             <a href="learn/Sliding_Fee_Discount_Schedule.pdf" class="noleftmargin nobottommargin" target="_blank">Sliding Fee Discount Schedule</a>
                                         </div>
                                         <div class="file-download">
-                                            <img src="images/orchid-content/file-icon-small.png">
+                                            <img src="../images/orchid-content/file-icon-small.png">
                                             <a target="_blank" href="learn/Sliding_Fee_Schedule_Patient_Application.pdf" class="noleftmargin nobottommargin">Sliding Fee Schedule Patient Application</a>
                                         </div>
                                         <div class="file-download">
-                                            <img src="images/orchid-content/file-icon-small.png">
+                                            <img src="../images/orchid-content/file-icon-small.png">
                                             <a href="learn/cash_pricing.pdf" class="noleftmargin nobottommargin" target="_blank">Cash Fee Schedule</a>
                                         </div>
                                     </table>
@@ -371,25 +414,30 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="row clearfix">
-                            <div class="col-sm-12 care-plan">
-                                <div style="background: #F7F4F2; padding: 30px">
-                                    <h2>Student Pricing</h2>
-                                    <p>
-                                       No student will be turned away due to ability to pay. We welcome ALL students, and accept most insurance including the Oregon Health Plan. If you don’t have insurance, don’t worry – we will still see you. <a href="learn/orchid_SBHC.pdf">Learn more here</a>.
-                                    </p>
-                                    <p>
-                                        Students between the ages of 12 and 19 who visit the SBHC may be asked to complete an anonymous survey after their visit. The survey asks about the student’s satisfaction and experience at the SBHC, as well as some general questions about their physical and mental health status. Students can refuse to take the survey and this will not affect their ability to get care at the SBHC. To see a copy of the survey, please go to the “SBHC Data Requirements” link from <a href="http://healthoregon.org/sbhc">http://healthoregon.org/sbhc</a>. If you have questions about the survey, please contact the SBHC State Program Office at <a href="mailto:sbhc.program@state.or.us">sbhc.program@state.or.us</a>.
-                                    </p>
-                                    <a href="#" data-scrollto="#team" class="button button-border button-rounded buton-blue-border button-large noleftmargin nobottommargin" >OUR PROVIDERS</a>
-                                    <br><a href="#" data-scrollto="#team" class="" style="display: inline-block; margin-top: 15px; width: 197px; text-align: center"><img src="images/orchid-content/angle-down-dark.png" alt="Go to next section"> </a>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
             <!-- END PRICING AND INSURANCE SECTION -->
+
+            <!-- START STUDENT PRICING -->
+            <div class="row clearfix margin-bottom-30">
+                <div class="col-sm-12 care-plan" id="sbhc">
+                    <div style="background: #F7F4F2; padding: 30px">
+                        <h2>Student Pricing</h2>
+                        <p>
+                           Our partnership with the Estacada School District provides free health care to student children and adolescents in the district. These include students at Clackamas River Elementary, River Mill Elementary, Estacada Middle School, and Estacada High School.
+                        </p>
+                        <p>
+                            Students between the ages of 12 and 19 who visit the SBHC may be asked to complete an anonymous survey after their visit. The survey asks about the student’s satisfaction and experience at the SBHC, as well as some general questions about their physical and mental health status. Students can refuse to take the survey and this will not affect their ability to get care at the SBHC. To see a copy of the survey, please go to the “SBHC Data Requirements” link from <a href="http://healthoregon.org/sbhc">http://healthoregon.org/sbhc</a>. If you have questions about the survey, please contact the SBHC State Program Office at <a href="mailto:sbhc.program@dhsoha.state.or.us">sbhc.program@dhsoha.state.or.us</a>.
+                        </p>
+                        <div style="text-align: center">
+                            <a href="#" data-scrollto="#team" class="button button-border button-rounded buton-blue-border button-large noleftmargin nobottommargin" >OUR PROVIDERS</a>
+                            <br><a href="#" data-scrollto="#team" class="" style="display: inline-block; margin-top: 15px; width: 197px; text-align: center"><img src="../images/orchid-content/angle-down-dark.png" alt="Go to next section"> </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- END STUDENT PRICING SECTION -->
 
             <!-- START TEAM SECTION -->
            <div id="team" class="margin-bottom-30">
@@ -404,12 +452,247 @@
                     <!-- START TEAM MEMBER -->
                     <div class="row team-container">
                         <div class="col-md-2">
-                            <img src="team/estacada_headshot/andrew-headshot-overlay.png" alt="Headshot" class="img-responsive">
+                            <img src="../team/Missy_Albrich_Headshot.png" alt="Headshot" class="img-responsive">
+                        </div>
+                        <div class="col-md-10">
+                            <button class="expand-details">Read More   +</button>
+                            <h3>Missy Albrich</h3>
+                            <h4>Clinic Manager</h4>
+<!--                             <p>
+                                <strong>Specialty:</strong> Family Medicine, Emergency Medicine
+                            </p> -->
+<!--                             <p>
+                                <strong>Clinical Interests:</strong>Whole person care through lifestyle medicine.
+                            </p>
+                            <p>-->
+                                <strong>Languages:</strong> English
+                            </p>
+                            <div class="team-details">
+                                <div>
+                                    <h5>Education and Certification:</h5>
+                                    <p>Associates from Ouachita Technical College</p>
+                                    <h5>Biography:</h5>
+                                    <p>Missy grew up in a small rural Oregon town until she was 13 years old when she and her family moved to an even smaller rural town in Arkansas, with a population of 317. When she was 29, she moved back to Oregon to start her family.</p>
+                                    <p>Missy graduated from Ouachita Technical College with an Associate degree and began her career in healthcare nearly 20 years ago. She is currently focused on learning about the ins and outs of rural healthcare while creating a work-life balance.</p>
+                                    <p>In her spare time, Missy enjoys spending time with her family. She and her husband have two boys and they enjoy watching their children participate in the School’s Drumline and Middle School football/baseball. Additionally, Missy and her family love traveling and taking vacations together!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END TEAM MEMBER -->
+
+                    <!-- START TEAM MEMBER -->
+                    <div class="row team-container">
+                        <div class="col-md-2">
+                            <img src="../team/Alee_Bridges_Headshot.png" alt="Headshot" class="img-responsive">
+                        </div>
+                        <div class="col-md-10">
+                            <button class="expand-details">Read More   +</button>
+                            <h3>Alee Bridges</h3>
+                            <h4>RN, BSN</h4>
+<!--                             <p>
+                                <strong>Specialty:</strong> Family Medicine, Emergency Medicine
+                            </p> -->
+                             <p>
+                                <strong>Clinical Interests:</strong>Preventative care, Acute care
+                            </p>
+                            <p>
+                                <strong>Languages:</strong> English
+                            </p>
+                            <div class="team-details">
+                                <div>
+                                    <h5>Education and Certification:</h5>
+                                    <p>Bachelors of Science in Nursing, Saint Luke’s College of Health Sciences, Kansas City, MO</p>
+                                    <h5>Biography:</h5>
+                                    <p>Alee is a Portland, OR native but spent most of her life in Kansas City, KS. She attended Saint Luke's College of Health Sciences at Rockhurst University in Kansas City, MO where she earned a Bachelors of Science in Nursing.</p>
+                                    <p>Alee began her healthcare career with the older adult population in long-term care and more recently in the acute care inpatient hospital setting. She has a passion for working with the older adult population and finding new ways to meet the needs of those generations within the community.</p>
+                                    <p>Her current focus is on providing quality primary preventative care and better health management to the local community.</p>
+                                    <p>In her spare time, she enjoys traveling, boating, reading, and exploring new local restaurants.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END TEAM MEMBER -->
+
+                    <!-- START TEAM MEMBER -->
+                    <div class="row team-container">
+                        <div class="col-md-2">
+                            <img src="../team/estacada_headshot/laura_edwards_headshot.png" alt="Headshot" class="img-responsive">
+                        </div>
+                        <div class="col-md-10">
+                            <button class="expand-details">Read More   +</button>
+                            <h3>Laura Edwards</h3>
+                            <h4>Behavioral Health Consultant, Licensed Professional Counselor</h4>
+                            <p>
+                                <strong>Specialty:</strong>Integrated Behavioral Health Care
+                            </p>
+                            <p>
+                                <strong>Clinical Interests:</strong> Solution-focused therapy, Cognitive-behavioral therapy, Dialectical behavior therapy, Motivational interviewing, Mindfulness techniques
+                            </p>  
+                            <p>
+                                <strong>Languages:</strong> English
+                            </p>     
+                            <div class="team-details">
+                                <div>
+                                    <h5>Education and Certification:</h5>
+                                    <p>BA Psychology, University of Alaska Anchorage<br>MS Clinical Psychology University of Alaska Anchorage<br>Licensed Professional Counselor in Oregon</p>
+                                    <h5>Biography:</h5>
+                                    <p>Laura was born and raised in Anchorage Alaska. She spent her practicum and internship working with low income clients and college students before moving to Oregon in 2010. For the past 7 years she has worked in an integrated healthcare setting with inpatient and outpatient populations of individuals struggling with mental health challenges.</p>
+                                    <p>Her passion is finding what makes each individual function optimally and working with them to develop strategies to maintain their optimum balance. Outside of work Laura enjoys running, hiking, walking and yoga as well as spending time with her family.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END TEAM MEMBER -->
+
+                    <!-- START TEAM MEMBER -->
+                    <div class="row team-container">
+                        <div class="col-md-2">
+                            <img src="../team/marty_headshot.png" alt="Headshot" class="img-responsive">
+                        </div>
+                        <div class="col-md-10">
+                            <button class="expand-details">Read More   +</button>
+                            <h3>Marty Grasmeder</h3>
+                            <h4>Medical Director </h4>
+                            <p>
+                                <strong>Specialty:</strong>MD, pediatrician, and supervising physicians
+                            </p>
+                            <p>
+                                <strong>Clinical Interests:</strong> general pediatric, developmental and behavioral pediatric, and children’s kidney Health
+                            </p>  
+                            <p>
+                                <strong>Languages:</strong> English
+                            </p>     
+                            <div class="team-details">
+                                <div>
+                                    <h5>Education and Certification:</h5>
+                                    <p>Bachelor of Science from Stanford University, MD from Penn State & residency at OHSU at pediatrics </p>
+                                    <h5>Biography:</h5>
+                                    <p>Dr. Marty Grasmeder grew up in Philadelphia and moved out to the west coast with his family while entering college. Upon his move, he was accepted into Stanford University where he got his degree in Biology, followed by earning his MD from Penn State University.</p>
+                                    <p>After his university, Dr. Grasmeder held a residency in pediatrics at OHSU. Dr. Grasmeder did his fellowship in children's kidneys at the Children's Hospital of Philadelphia.</p>
+                                    <p>Later in his career, Dr. Grasmeder decided to expand his calling and took a role as a Pediatrician in Sika, Alaska. His service extended to local indigenous tribes and he was the only pediatrician on an island town of 8,500. His career grew and flourished while in Alaska, however, his heart was in the Northwest.</p>
+                                    <p>After nearly 20 years serving rural populations in Alaska, Dr. Grasmeder returned to the west coast as Multnomah County’s Medical Director. His impact at the county lasted for nearly 7 years until he semi-retired.</p>
+                                    <p>Now he is returning to his roots in rural healthcare to help expand care for everyone and to improve the social fabric and network to help people thrive in their communities while creating healthy communities.</p>
+                                    <p>When Dr. Grasmeder is not working; he enjoys spending his time fishing, learning about European history, spending time with his family and children, riding bikes, and woodworking.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END TEAM MEMBER -->
+
+                    <!-- START TEAM MEMBER -->
+                    <div class="row team-container">
+                        <div class="col-md-2">
+                            <img src="../team/estacada_headshot/emily_headshot.png" alt="Headshot" class="img-responsive">
+                        </div>
+                        <div class="col-md-10">
+                            <button class="expand-details">Read More   +</button>
+                            <h3>Emily Hambleton</h3>
+                            <h4>RN</h4>
+<!--                             <p>
+                                <strong>Specialty:</strong> Family Medicine
+                            </p> -->
+                            <p>
+                                <strong>Clinical Interests:</strong> Preventative Care, Life-long health planning
+                            </p>
+                            <p>
+                                <strong>Languages:</strong> English
+                            </p>
+                            <div class="team-details">
+                                <div>
+                                    <h5>
+                                        Education and Certification:
+                                    </h5>
+                                    <p>
+                                        Associates of Science in Nursing, Clackamas Community College
+
+
+                                        <br>Bachelor's of Science in Nursing from Aspen University
+
+                                    </p>
+                                    <h5>Biography:</h5>
+                                    <p>Raised in the foothills of the Rocky Mountains, just outside of Denver, Colorado, Emily loves the outdoors. Her enjoyment of beautiful scenery brought her to the Pacific North West, where she now lives with her family and their dog, Petey.</p>
+                                    <p>As a fellow Estacadian, Emily is passionate about the people of Estacada. It is her goal to see them thrive emotionally, mentally, spiritually, and physically. She has many years of nursing experience with patients ranging from babies to over 100 years in age. She has worked in inpatient and outpatient settings, which makes her familiar with many aspects of the healthcare experience. Emily strives to be a good listener, and would love to hear your medical story to help you on achieve your goals.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END TEAM MEMBER -->
+
+                    <!-- START TEAM MEMBER -->
+                    <div class="row team-container">
+                        <div class="col-md-2">
+                            <img src="../team/estacada_headshot/estacada%20headshot-laura.png" alt="Headshot" class="img-responsive">
+                        </div>
+                        <div class="col-md-10">
+                            <button class="expand-details">Read More   +</button>
+                            <h3>Laura Montez</h3>
+                            <h4>Physician Assistant, NCCPA Board-Certified</h4>
+                            <p>
+                                <strong>Specialty:</strong> Pediatrics
+                            </p>
+                            <p>
+                                <strong>Clinical Interests:</strong> Pediatrics, Preventative care, Urgent care, Asthma care.
+                            </p>
+                            <p>
+                                <strong>Languages:</strong> English, Spanish, Sign Language, Gilbertese
+                            </p>
+                            <div class="team-details">
+                                <div> 
+                                    <h5>Education and Certification:</h5>
+                                    <p>Bachelor’s of Science, Molecular and Cellular Biology, University of Arizona, Tucson, AZ in 1996<br>Master’s of Science, Physician Assistant Studies; Pacific University, Forest Grove OR, 2003</p>
+                                    <h5>Biography:</h5>
+                                    <p>Laura Montez PA-C grew up in Phoenix, AZ where she earned her undergraduate degree at University of Arizona. After two years in the Peace Corps in the Central Pacific, she moved to Oregon where she obtained her Master's at Pacific University's School of Physician Assistant Studies. She has worked in the areas of Pediatrics, Family Practice and Urgent Care in East County for the past 13 years.</p>
+                                    <p>For the past few years, she has lived in Estacada, where she is very excited about providing quality rural health to her community. When she is not working, she is involved with her kids' Scout programs, volunteers at Estacada Fire Department and cycles long distance. She is fluent in Spanish, American Sign Language and Gilbertese, and is always eager to learn more dialects. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END TEAM MEMBER -->
+
+                    <!-- START TEAM MEMBER -->
+                     <div class="row team-container">
+                        <div class="col-md-2">
+                            <img src="../team/estacada_headshot/nina_headshot.png" alt="Headshot" class="img-responsive">
+                        </div>
+                        <div class="col-md-10">
+                            <button class="expand-details">Read More   +</button>
+                            <h3>Nina O’Mailia</h3>
+                            <h4>Physician Assistant-Certified</h4>
+                            <p>
+                                <strong>Specialty:</strong> Family Practice, Pediatrics, Gynecology
+                            </p>
+                            <p>
+                                <strong>Clinical Interests:</strong> Women’s Health, Pediatrics, Urgent Care, Preventative Health
+                            </p>
+                            <p>
+                                <strong>Languages:</strong> English
+                            </p>
+                            <div class="team-details">
+                                <div>
+                                    <h5>Education and Certification:</h5>
+                                    <p>Bachelor’s of Science, Biology; University of South Carolina<br>Master’s of Science, Physician Assistant Studies; Pacific University<br>NCCPA Board-Certified</p>
+                                    <h5>Biography:</h5>
+                                    <p>Nina moved to Portland from Montana when she was 10.  She is local, graduating from David Douglas High School.  Traveled extensively after high school and graduated from University of South Carolina.  She then completed her Masters at Pacific University in Forest Grove, OR.</p>
+                                    <p>She has worked extensively with Community Health Centers such as Yakima Valley Farm Workers Clinics, Sea Mar as well as corrections medicine.  She also has worked with larger companies like Kaiser and Private Practice with Oregon Sleep Associates.</p>
+                                    <p>She enjoys the diversity of family medicine and feels working with small communities and getting to know her patients is very rewarding.  Her interests are broad among women, children, acute and preventative care.</p>
+                                    <p>Nina has an adult daughter, parents, twin sisters and young nieces and nephews in the area.  She is involved in her local church, HOA and other community activities.  She enjoys spending time with family and friends, travel, swimming, hiking, biking, crochet and caring for animals.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END TEAM MEMBER -->
+
+                    <!-- START TEAM MEMBER -->
+                    <div class="row team-container">
+                        <div class="col-md-2">
+                            <img src="../team/andrew_headshot.png" alt="Headshot" class="img-responsive">
                         </div>
                         <div class="col-md-10">
                             <button class="expand-details">Read More   +</button>
                             <h3>Andrew White</h3>
-                            <h4>Physician Assistant, NCCPA Board-certified</h4>
+                            <h4>Physician Assistant, NCCPA Board-Certified</h4>
                             <p>
                                 <strong>Specialty:</strong> Family Medicine
                             </p>
@@ -444,17 +727,17 @@
                     <!-- START TEAM MEMBER -->
                     <div class="row team-container">
                         <div class="col-md-2">
-                            <img src="team/estacada_headshot/emily_headshot.png" alt="Headshot" class="img-responsive">
+                            <img src="../team/Annie_Zenn_Headshot.png" alt="Headshot" class="img-responsive">
                         </div>
                         <div class="col-md-10">
                             <button class="expand-details">Read More   +</button>
-                            <h3>Emily Hambleton</h3>
-                            <h4>RN</h4>
-<!--                             <p>
-                                <strong>Specialty:</strong> Family Medicine
-                            </p> -->
+                            <h3>Annie Zenn</h3>
+                            <h4>Behavioral Health Counselor, Licensed Professional Counselor</h4>
                             <p>
-                                <strong>Clinical Interests:</strong> Preventative Care, Life-long health planning
+                                <strong>Specialty:</strong> Integrated Behavioral Health Care
+                            </p>
+                            <p>
+                                <strong>Clinical Interests:</strong> Solution Focused Brief Therapy, Art Therapy, Play Therapy, Cognitive Behavioral Therapy
                             </p>
                             <p>
                                 <strong>Languages:</strong> English
@@ -465,15 +748,14 @@
                                         Education and Certification:
                                     </h5>
                                     <p>
-                                        Associates of Science in Nursing, Clackamas Community College
-
-
-                                        <br>Currently enrolled in Bachelors of Science in Nursing, Aspen University
-
+                                        Bachelors of Science in Psychology from Linfield University in McMinnville, OR
+                                        </br>Masters of Science in Education Counseling with a specialty in School Counseling from Portland State University, in Portland, OR
+                                        </br>Dual licensed as a Professional School Counselor and a Licensed Professional Counselor in Oregon
                                     </p>
                                     <h5>Biography:</h5>
-                                    <p>Raised in the foothills of the Rocky Mountains, just outside of Denver, Colorado, Emily loves the outdoors. Her enjoyment of beautiful scenery brought her to the Pacific North West, where she now lives with her family and their dog, Petey.</p>
-                                    <p>As a fellow Estacadian, Emily is passionate about the people of Estacada. It is her goal to see them thrive emotionally, mentally, spiritually, and physically. She has many years of nursing experience with patients ranging from babies to over 100 years in age. She has worked in inpatient and outpatient settings, which makes her familiar with many aspects of the healthcare experience. Emily strives to be a good listener, and would love to hear your medical story to help you on achieve your goals.</p>
+                                    <p>Annie Zenn, LPC utilizes a short-term, goal-focused, evidence-based approach to providing individual, group, and family therapy to children, adolescents, and adults. Her approach to counseling focuses on identifying and building upon client strengths, and finding solutions to current life challenges. Annie collaborates closely with the medical team, local schools, and community organizations in order to support clients with their overall wellness.</p>
+                                    <p>On days when Annie is at the Estacada Clinic, her therapy dog Habibi works alongside her. Habibi (which means ‘sweetheart’ in Arabic) is a labradoodle (labrador and poodle mix), and is certified as a therapy dog through the Alliance of Therapy Dogs. Empirical evidence has shown that therapy dogs can enhance self-esteem, teach compassion, calm fears, relieve anxiety, and improve social skills. Habibi has worked with Annie as a therapy dog in schools, hospitals, nursing homes and counseling clinics since 2015.</p>
+                                    <p>Annie was born and raised in Maui, Hawaii and has lived in Oregon since 2006. She loves being out in nature and when she’s not at work, Annie can be found kayaking, hiking, camping and gardening with her dog Habibi. Annie also loves painting, making ceramic pottery, and traveling to new and interesting places.</p>
                                 </div>
                             </div>
                         </div>
@@ -483,92 +765,33 @@
                     <!-- START TEAM MEMBER -->
                     <div class="row team-container">
                         <div class="col-md-2">
-                            <img src="team/estacada_headshot/laura_edwards_headshot.png" alt="Headshot" class="img-responsive">
+                            <img src="../team/Habibi_Headshot.png" alt="Headshot" class="img-responsive">
                         </div>
                         <div class="col-md-10">
                             <button class="expand-details">Read More   +</button>
-                            <h3>Laura Edwards</h3>
-                            <h4>Behavioral Health Consultant, Licensed Professional Counselor</h4>
-                            <p>
-                                <strong>Specialty:</strong>Integrated Behavioral Health Care
+                            <h3>Habibi</h3>
+                            <h4>Therapy Dog</h4>
+<!--                             <p>
+                                <strong>Specialty:</strong> Integrated Behavioral Health Care
                             </p>
                             <p>
-                                <strong>Clinical Interests:</strong> Solution-focused therapy, Cognitive-behavioral therapy, Dialectical behavior therapy, Motivational interviewing, Mindfulness techniques
-                            </p>  
+                                <strong>Clinical Interests:</strong> Solution Focused Brief Therapy, Art Therapy, Play Therapy, Cognitive Behavioral Therapy
+                            </p>
                             <p>
                                 <strong>Languages:</strong> English
-                            </p>     
+                            </p> -->
                             <div class="team-details">
                                 <div>
-                                    <h5>Education and Certification:</h5>
-                                    <p>BA Psychology, University of Alaska Anchorage<br>MS Clinical Psychology University of Alaska Anchorage<br>Licensed Professional Counselor in Oregon</p>
+<!--                                     <h5>
+                                        Education and Certification:
+                                    </h5>
+                                    <p>
+                                        Bachelors of Science in Psychology from Linfield University in McMinnville, OR
+                                        </br>Masters of Science in Education Counseling with a specialty in School Counseling from Portland State University, in Portland, OR
+                                        </br>Dual licensed as a Professional School Counselor and a Licensed Professional Counselor in Oregon
+                                    </p> -->
                                     <h5>Biography:</h5>
-                                    <p>Laura was born and raised in Anchorage Alaska. She spent her practicum and internship working with low income clients and college students before moving to Oregon in 2010. For the past 7 years she has worked in an integrated healthcare setting with inpatient and outpatient populations of individuals struggling with mental health challenges.</p>
-                                    <p>Her passion is finding what makes each individual function optimally and working with them to develop strategies to maintain their optimum balance. Outside of work Laura enjoys running, hiking, walking and yoga as well as spending time with her family.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- END TEAM MEMBER -->
-
-                    <!-- START TEAM MEMBER -->
-                    <div class="row team-container">
-                        <div class="col-md-2">
-                            <img src="team/estacada_headshot/estacada%20headshot-laura.png" alt="Headshot" class="img-responsive">
-                        </div>
-                        <div class="col-md-10">
-                            <button class="expand-details">Read More   +</button>
-                            <h3>Laura Montez</h3>
-                            <h4>Physician Assistant, NCCPA Board-certified</h4>
-                            <p>
-                                <strong>Specialty:</strong> Pediatrics
-                            </p>
-                            <p>
-                                <strong>Clinical Interests:</strong> Pediatrics, Preventative care, Urgent care, Asthma care.
-                            </p>
-                            <p>
-                                <strong>Languages:</strong> English, Spanish, Sign Language, Gilbertese
-                            </p>
-                            <div class="team-details">
-                                <div> 
-                                    <h5>Education and Certification:</h5>
-                                    <p>Bachelor’s of Science, Molecular and Cellular Biology, University of Arizona, Tucson, AZ in 1996<br>Master’s of Science, Physician Assistant Studies; Pacific University, Forest Grove OR, 2003</p>
-                                    <h5>Biography:</h5>
-                                    <p>Laura Montez PA-C grew up in Phoenix, AZ where she earned her undergraduate degree at University of Arizona. After two years in the Peace Corps in the Central Pacific, she moved to Oregon where she obtained her Master's at Pacific University's School of Physician Assistant Studies. She has worked in the areas of Pediatrics, Family Practice and Urgent Care in East County for the past 13 years.</p>
-                                    <p>For the past few years, she has lived in Estacada, where she is very excited about providing quality rural health to her community. When she is not working, she is involved with her kids' Scout programs, volunteers at Estacada Fire Department and cycles long distance. She is fluent in Spanish, American Sign Language and Gilbertese, and is always eager to learn more dialects. </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- END TEAM MEMBER -->
-
-                    <!-- START TEAM MEMBER -->
-                    <div class="row team-container">
-                        <div class="col-md-2">
-                            <img src="team/estacada_headshot/estacada%20headshot-lynn.png" alt="Headshot" class="img-responsive">
-                        </div>
-                        <div class="col-md-10">
-                            <button class="expand-details">Read More   +</button>
-                            <h3>Dr. Lynn Murphy</h3>
-                            <h4>Family Medicine Physician, Medical Director, AAFP Board-certified</h4>
-                            <p>
-                                <strong>Specialty:</strong> Family Medicine
-                            </p>
-                            <p>
-                                <strong>Clinical Interests:</strong> Chronic Disease Management, Allergy care, Mental health, Nutrition, Whole person health
-                            </p>
-                            <p>
-                                <strong>Languages:</strong> English, Spanish
-                            </p>
-                            <div class="team-details">
-                                <div>
-                                    <h5>Education and Certification:</h5>
-                                    <p>M.D. Temple University School of Medicine<br>UCSF Family Medicine Residency and Internship</p>
-                                    <h5>Biography:</h5>
-                                    <p>Dr. Lynn Murphy was raised in Portland, Oregon, and now she is returning home to be near family and friends. During her years away, she worked for many years as a volunteer with inner city children in Philadelphia. She then achieved her Medical Degree through Temple University before returning to the West Coast. After a California Residency at UCSF, she practiced as the only doctor in a small town near the San Francisco Area, successfully operating her own private office for the last 14 years.</p>
-                                    <p>For personal and family health reasons, Dr Murphy’s family took up residence in Hawaii in 2015. She now shares time between the two states: Oregon and Hawaii. As a physician, Dr. Murphy relishes practicing “Whole Person Medicine”, thrives in an environment where she can spend quality time with her patients, and is also an excellent diagnostician who is willing to embrace high quality medical standards while still inviting natural health care into the picture. She loves a small town environment and is excited to have joined the team at Orchid Health in Estacada.</p>
-                                    <p>When not working you might often find her kayaking on the ocean or possibly Stand Up Paddle-boarding. She also spends a lot of time as a homeschooling parent, a chef for her allergy-ridden son, writing or playing music, and running a successful homespun jewelry business.</p>
+                                    <p>Habibi (which means ‘sweetheart’ in Arabic) is a labradoodle (labrador and poodle mix), and is certified as a therapy dog through the Alliance of Therapy Dogs. Empirical evidence has shown that therapy dogs can enhance self-esteem, teach compassion, calm fears, relieve anxiety, and improve social skills. Habibi has worked with Annie as a therapy dog in schools, hospitals, nursing homes and counseling clinics since 2015.</p>
                                 </div>
                             </div>
                         </div>
@@ -587,7 +810,7 @@
                     <!-- START TEAM MEMBER -->
                     <div class="row team-container">
                         <div class="col-md-2">
-                            <img src="team/headshot-orion-trimmed.png" alt="Headshot" class="img-responsive">
+                            <img src="../team/headshot-orion-trimmed.png" alt="Headshot" class="img-responsive">
                         </div>
                         <div class="col-md-10">
                             <button class="expand-details">Read More   +</button>
@@ -606,16 +829,21 @@
                     <!-- START TEAM MEMBER -->
                     <div class="row team-container">
                         <div class="col-md-2">
-                            <img src="team/estacada_headshot/estacada%20headshot-lynn.png" alt="Headshot" class="img-responsive">
+                            <img src="../team/marty_headshot.png" alt="Headshot" class="img-responsive">
                         </div>
                         <div class="col-md-10">
                             <button class="expand-details">Read More   +</button>
-                            <h3>Dr. Lynn Murphy</h3>
-                            <h4>Medical Director</h4> 
+                            <h3>Marty Grasmeder</h3>
+                            <h4>Medical Director</h4>
                             <div class="team-details">
                                 <div>
                                     <h5>Biography:</h5>
-                                    <p>See above care team section.</p>
+                                    <p>Dr. Marty Grasmeder grew up in Philadelphia and moved out to the west coast with his family while entering college. Upon his move, he was accepted into Stanford University where he got his degree in Biology, followed by earning his MD from Penn State University.</p>
+                                    <p>After his university, Dr. Grasmeder held a residency in pediatrics at OHSU. Dr. Grasmeder did his fellowship in children's kidneys at the Children's Hospital of Philadelphia.</p>
+                                    <p>Later in his career, Dr. Grasmeder decided to expand his calling and took a role as a Pediatrician in Sika, Alaska. His service extended to local indigenous tribes and he was the only pediatrician on an island town of 8,500. His career grew and flourished while in Alaska, however, his heart was in the Northwest.</p>
+                                    <p>After nearly 20 years serving rural populations in Alaska, Dr. Grasmeder returned to the west coast as Multnomah County’s Medical Director. His impact at the county lasted for nearly 7 years until he semi-retired.</p>
+                                    <p>Now he is returning to his roots in rural healthcare to help expand care for everyone and to improve the social fabric and network to help people thrive in their communities while creating healthy communities.</p>
+                                    <p>When Dr. Grasmeder is not working; he enjoys spending his time fishing, learning about European history, spending time with his family and children, riding bikes, and woodworking.</p>
                                 </div>
                             </div>
                         </div>
@@ -625,32 +853,12 @@
                     <!-- START TEAM MEMBER -->
                     <div class="row team-container">
                         <div class="col-md-2">
-                            <img src="team/melissa_headshot.png" alt="Headshot" class="img-responsive">
-                        </div>
-                        <div class="col-md-10">
-                            <button class="expand-details">Read More   +</button>
-                            <h3>Melissa McDermott</h3>
-                            <h4>Operations Director</h4>
-                            <div class="team-details">
-                                <div>
-                                    <h5>Biography:</h5>
-                                    <p>Ms. McDermott has 19 years of executive operational experience in the healthcare and financial industries. Ms. McDermott enjoys the challenge of creatively leveraging limited resources in order to successfully bring badly needed healthcare resources to the medically underserved in rural areas.  A Northwest Native, Melissa recently moved back to Portland after helping to grow a network of community clinics in Santa Barbara, CA.  Melissa enjoys hiking, cooking and volunteering.   Melissa is currently a Board Member for Serendipity Center, a therapeutic school and a Board Consultant for SG Foundation, a foundation serving the poorest of the poor in South America.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- END TEAM MEMBER -->
-
-                    <!-- START TEAM MEMBER -->
-                    <div class="row team-container">
-                        <div class="col-md-2">
-                            <img src="team/estacada_headshot/jennifer-headshot-overlay.png" alt="Headshot" class="img-responsive">
+                            <img src="../team/estacada_headshot/jennifer-headshot-overlay.png" alt="Headshot" class="img-responsive">
                         </div>
                         <div class="col-md-10">
                             <button class="expand-details">Read More   +</button>
                             <h3>Jennifer Harris</h3>
-                            <h4>Clinic Manager</h4> 
+                            <h4>Learning and Development Director</h4> 
                             <div class="team-details">
                                 <div>
                                     <h5>Biography:</h5>
@@ -665,7 +873,7 @@
                     <!-- START TEAM MEMBER -->
                     <div class="row team-container">
                         <div class="col-md-2">
-                            <img src="team/oakridge_headshot/bill_roller_headshot.png" alt="Headshot" class="img-responsive">
+                            <img src="../team/oakridge_headshot/bill_roller_headshot.png" alt="Headshot" class="img-responsive">
                         </div>
                         <div class="col-md-10">
                             <button class="expand-details">Read More   +</button>
@@ -685,23 +893,24 @@
                     <!-- START TEAM MEMBER -->
                     <div class="row team-container">
                         <div class="col-md-2">
-                            <img src="team/oakridge_headshot/casey_brewster_headshot.png" alt="Headshot" class="img-responsive">
+                            <img src="../team/vikki_headshot.png" alt="Headshot" class="img-responsive">
                         </div>
                         <div class="col-md-10">
                             <button class="expand-details">Read More   +</button>
-                            <h3>Casey Brewster</h3>
-                            <h4>Creative Director</h4>
+                            <h3>Vikki Whittum</h3>
+                            <h4>HR Director</h4>
                             <div class="team-details">
                                 <div>
                                     <h5>Biography:</h5>
-                                    <p>Casey joined the Orchid team in the summer of 2018.  She grew up in Cincinnati, OH, and spent summers with her family in Guadalajara, Mexico.  After two decades working in community engagement in the Midwest and Pacific Northwest, she now specializes in marketing and creative communications.  She holds a bachelor's degree in English and Gender Studies from the University of Notre Dame and a master's degree in functional medicine from the Seattle Institute of East Asian Medicine.  Casey is passionate about community health and vitality, especially as it pertains to women and children. In her free time, Casey enjoys writing, cooking and gardening with her husband.
+                                    <p>Vikki is a human resources professional who enjoys traditional HR practices and also gets really excited about building and sustaining great company culture through support and training(s) focusing on healthy professional communication, understanding our differences are what make us all fabulous, and how to effectively communicate with a variety of different communication styles. Her passion is working closely with all team members to promote success for all.
+                                    </p>
+                                    <p>Vikki balances her working life with plenty of fun times with her husband Tony... refurbishing furniture, riding motorcycles and traveling, as well as, spending time with their collection of oddball dogs and really cool adult sons who live in the Portland area.
                                     </p>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <!-- END TEAM MEMBER -->
-
 
 
                     <!-- END LEADERSHIP TEAM -->
@@ -727,12 +936,12 @@
                                 <strong>Fax:</strong> 503-630-8551 
                             </p>
                             <p>
-                                <strong>Email:</strong> jenniferharris@orchidhealth.org
+                                <strong>Email:</strong> missyalbrich@orchidhealth.org
                             </p>
                             <p>
                                 <strong>Hours:</strong>
-                                <br>M - T: 8am-7pm
-                                <br>W - F: 8am-5pm
+                                <br>M - T: 8:30am-7pm
+                                <br>W - F: 8:30am-5pm
                             </p>
                             <p>
                                 <em>
@@ -752,7 +961,7 @@
                         </div>
                     </div>
                     <div class="col-sm-7">
-                        <img src="images/orchid-content/estacada-clinic-photo-01-trimmed.jpg" class="img-responsive img-full margin-bottom-30">
+                        <img src="../images/orchid-content/estacada-clinic-photo-01-trimmed.jpg" class="img-responsive img-full margin-bottom-30">
 
                         <div id="patient-forms">
                             <div class="col-padding review">
@@ -761,61 +970,75 @@
                                 <table>
                                     <tr>
                                         <th>
-                                            <h3>Adult Forms</h3>
                                             <div class="item">
                                                 <div class="file-download">
-                                                    <img src="images/orchid-content/file-icon-small.png">
-                                                    <a href="learn/Adult_NP_Registration_PACKET.pdf" target="_blank">Adult New Patient Registration Packet</a>
+                                                    <img src="../images/orchid-content/file-icon-small.png">
+                                                    <a href="learn/New patient welcome packet - adults.pdf" target="_blank">New patient welcome packet - adults</a>
                                                 </div>
                                             </div>
                                             <div class="item">
                                                 <div class="file-download">
-                                                    <img src="images/orchid-content/file-icon-small.png">
-                                                    <a href="learn/Adult_NP_Health_History_Form.pdf" target="_blank">Adult New Patient Health History</a>
+                                                    <img src="../images/orchid-content/file-icon-small.png">
+                                                    <a href="learn/Paquete de bienvenida - adultos.pdf" target="_blank">Paquete de bienvenida - adultos</a>
                                                 </div>
                                             </div>
                                             <div class="item">
                                                 <div class="file-download">
-                                                    <img src="images/orchid-content/file-icon-small.png">
-                                                    <a href="learn/Patient_Rights_and_Responsibilities.pdf" target="_blank">Patient Rights and Responsibilities</a>
+                                                    <img src="../images/orchid-content/file-icon-small.png">
+                                                    <a href="learn/Frequently_Asked_Questions.pdf" target="_blank">Frequently asked questions</a>
                                                 </div>
                                             </div>
                                             <div class="item">
                                                 <div class="file-download">
-                                                    <img src="images/orchid-content/file-icon-small.png">
+                                                    <img src="../images/orchid-content/file-icon-small.png">
+                                                    <a href="learn/Medical Records Release.pdf" target="_blank">Medical records release</a>
+                                                </div>
+                                            </div>
+                                            <div class="item">
+                                                <div class="file-download">
+                                                    <img src="../images/orchid-content/file-icon-small.png">
+                                                    <a href="learn/Authorization to Disclose Information.pdf" target="_blank">Authorization to release information</a>
+                                                </div>
+                                            </div>
+                                            <div class="item">
+                                                <div class="file-download">
+                                                    <img src="../images/orchid-content/file-icon-small.png">
                                                     <a href="learn/NP_Controlled_Rx_Information.pdf" target="_blank">Controlled Substances Policy</a>
                                                 </div>
                                             </div>
-                                            </th>
-
-                                            <th>
-                                            <h3>Child/Adolescent Forms</h3>
-                                            
                                             <div class="item">
                                                 <div class="file-download">
-                                                    <img src="images/orchid-content/file-icon-small.png">
-                                                    <a href="learn/Minor_NP_Registration_PACKET.pdf" target="_blank">Minor New Patient Registration Packet</a>
+                                                    <img src="../images/orchid-content/file-icon-small.png">
+                                                    <a href="learn/New patient paperwork - ages 0-5.pdf" target="_blank">New patient welcome packet - ages 0-5</a>
                                                 </div>
                                             </div>
                                             <div class="item">
                                                 <div class="file-download">
-                                                    <img src="images/orchid-content/file-icon-small.png">
-                                                    <a href="learn/NP_Health_History_Pediatric_0-5.pdf" target="_blank">Age 0-5 NP Health History Form</a>
+                                                    <img src="../images/orchid-content/file-icon-small.png">
+                                                    <a href="learn/New patient welcome packet - ages 6-17.pdf" target="_blank">New patient welcome packet - ages 6-17</a>
                                                 </div>
                                             </div>
                                             <div class="item">
                                                 <div class="file-download">
-                                                    <img src="images/orchid-content/file-icon-small.png">
-                                                    <a href="learn/NP_Health_History_Pediatric_6-11.pdf" target="_blank">Age 6-11 NP Health History Form</a>
+                                                    <img src="../images/orchid-content/file-icon-small.png">
+                                                    <a href="learn/Paquete de bienvenida - 0 a 5 años.pdf" target="_blank">Paquete de bienvenida - 0 a 5 años</a>
                                                 </div>
                                             </div>
                                             <div class="item">
                                                 <div class="file-download">
-                                                    <img src="images/orchid-content/file-icon-small.png">
-                                                    <a href="learn/NP_Health_History_Adolescent_12-17.pdf" target="_blank">Age 12-17 NP Health History Form</a>
+                                                    <img src="../images/orchid-content/file-icon-small.png">
+                                                    <a href="learn/Paquete de bienvenida - 6 a 17 años.pdf" target="_blank">Paquete de bienvenida - 6 a 17 años</a>
                                                 </div>
                                             </div>
                                         </th>
+<!--                                         <th>                                            
+                                            <div class="item">
+                                                <div class="file-download">
+                                                    <img src="../images/orchid-content/file-icon-small.png">
+                                                    <a href="learn/Minor_NP_Registration_PACKET.pdf" target="_blank">Minor New Patient Registration Packet</a>
+                                                </div>
+                                            </div>
+                                        </th> -->
                                     </tr>
                                 </table>
                             </div>
@@ -828,7 +1051,7 @@
                 <div class="row clearfix">
                     <div class="col-md-6">
                         <div class="welcome-image">
-                            <img src="images/orchid-content/oakridge%20careers%20image.jpg" class="img-full img-responsive">
+                            <img src="../images/orchid-content/oakridge%20careers%20image.jpg" class="img-full img-responsive">
                             <h2>
                                 Welcome to
                                 <br><span>Estacada</span>
@@ -841,7 +1064,7 @@
                                 </div>
                                 <div class="col-md-5">
                                     <div class="pos-relative margin-bottom-30">
-                                        <img src="images/orchid-content/estacada-portal-icon.png" class="img-responsive">
+                                        <img src="../images/orchid-content/estacada-portal-icon.png" class="img-responsive">
                                     </div>
                                 </div>
                             </div>
@@ -867,10 +1090,9 @@
                             <h2 class="inline-block">Careers</h2>
                             <br>
                             <p>
-                                <strong>We are hiring for the following positions, click link for job description:</strong><br>
-                                <a href="learn/PA_or_NP_Job_Posting_Estacada.pdf" target="_blank">PA/NP</a><br>
-                                <a href="learn/behavioral_health_clinician_and_program_supervisor_job_posting.pdf" target="_blank">Behavioral Health Clinician/Program Supervisor</a><br>
-                                <a href="learn/MA_Job_Description.pdf" target="_blank">MA</a>
+                                <strong>We are hiring for the following positions:</strong><br>
+                                <a href="https://app.trinethire.com/companies/34751-orchid-health/jobs/46018-data-analyst" target="_blank">Data Analyst Job</a><br>
+                                <a href="https://app.trinethire.com/companies/34751-orchid-health/jobs/47019-patient-support-specialist" target="_blank">Patient Support Specialist</a><br>
                             </p>
                             <br>
                             <!-- LOCATION -->
@@ -939,6 +1161,7 @@
     <!-- Footer
     ============================================= -->
      <footer>
+        <!-- PRESS SECTION -->
         <div class="container clearfix" style="margin-bottom: 60px">
             <div class="row clearfix">
                 <div class="col-sm-12 text-center">
@@ -948,45 +1171,27 @@
             <div class="row clearfix">
                 <div class="col-md-4">
                     <div class="press-box">
-                        <img src="images/orchid-content/footer/oregon%20business.png" class="img-responsive center-block">
-                        <div class="quot-open">
-                            <span>“</span>
-                        </div>
-                        <p>
-                            10 innovators in
-                            Rural Health
-                        </p>
-                        <h3>
-                            - Jacob Palmer
-                        </h3>
-                        <h4>
-                            Oregon Business Magazine
-                        </h4>
+                        <a href="https://www.oregonbusiness.com/100best/companies/item/19238-2021-100-best-companies-to-work-for-in-oregon">
+                            <img src="../images/orchid-content/100best2021.png" class="img-responsive center-block" style="height: 150px; margin-bottom: 20px">
+                        </a>
+                        <a href="https://www.oregonbusiness.com/100best/companies/item/19238-2021-100-best-companies-to-work-for-in-oregon" target="_blank" class="white-link">
+                            Best Places to Work Award
+                        </a>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="press-box">
-                        <img src="images/orchid-content/footer/kval-news.png" class="img-responsive center-block">
-                        <div class="quot-open">
-                            <span>“</span>
-                        </div>
-                        <p>
-                            (Orchid) has made an enormous difference to the people
-                        </p>
-                        <h3>
-                            - John Strieder
-                        </h3>
-                        <h4>
-                            Oregon Quarterly Magazine
-                        </h4>
+                        <a href="https://www.opb.org/article/2020/12/21/rural-clinics-fill-healthcare-gaps-across-oregon/" target="_blank">
+                            <img src="../images/orchid-content/health_hero2021.png" class="img-responsive center-block" style="height: 150px; margin-bottom: 20px">
+                        </a>
+                        <a href="https://www.opb.org/article/2020/12/21/rural-clinics-fill-healthcare-gaps-across-oregon/" target="_blank" class="white-link">
+                            Oregon Rural Health Hero of the Year Award
+                        </a>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="press-box">
-                        <img src="images/orchid-content/footer/oregon-quarterly.png" class="img-responsive center-block">
-                        <div class="quot-open">
-                            <span>“</span>
-                        </div>
+                        <img src="../images/orchid-content/footer/oregon-quarterly.png" class="img-responsive center-block" style="height: 150px; margin-bottom: 20px">
                         <p>
                             Integrated care, under one roof
                         </p>
@@ -1000,11 +1205,13 @@
                 </div>
             </div>
         </div>
+        <!-- END PRESS SECTION -->
+
         <div class="container-fluid clearfix footer-content">
             <div class="row clearfix">
                 <div class="col-md-3 copyright">
                     <div class="col-md-4">
-                        <img src="images/orchid-content/footer/logo.png" class="img-responsive">
+                        <img src="../images/orchid-content/footer/logo.png" class="img-responsive">
                     </div>
                     <div class="col-md-8">
                         © 2016 Orchid
@@ -1012,7 +1219,7 @@
                         <br>All Rights Reserved
                     </div>
                 </div>
-                <div class="col-md-4 footer-links">
+                <div class="col-md-9 footer-links">
                     <a href="https://www.facebook.com/OrchidHealthWadeCreekClinic/">
                         FACEBOOK
                     </a>
@@ -1024,6 +1231,9 @@
                     </a>
                     <a href="#" data-scrollto="#careers">
                         CAREERS
+                    </a>
+                    <a href="mailto:jonnycantrell@orchidhealth.org?subject=Media Contact">
+                        MEDIA CONTACT
                     </a>
                 </div>
             </div>
@@ -1039,13 +1249,13 @@
 
 <!-- External JavaScripts
 ============================================= -->
-<script type="text/javascript" src="js/jquery.js"></script>
-<script type="text/javascript" src="js/plugins.js"></script>
+<script type="text/javascript" src="../js/jquery.js"></script>
+<script type="text/javascript" src="../js/plugins.js"></script>
 
 <!-- Footer Scripts
 ============================================= -->
-<script type="text/javascript" src="js/functions.js"></script>
-<script type="text/javascript" src="js/script.extend.js"></script>
+<script type="text/javascript" src="../js/functions.js"></script>
+<script type="text/javascript" src="../js/script.extend.js"></script>
 
 </body>
 </html>
