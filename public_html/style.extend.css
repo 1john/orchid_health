@@ -658,3 +658,35 @@ li.nav-button div {
     padding-right: 4px;
     margin-right: 4px;
 }
+
+.blue {
+    color: #307272 !important;
+}
+
+.pad_bottom {
+    padding-bottom:  24px;
+}
+
+.pad_bottom_more {
+    padding-bottom:  48px;
+}
+
+.no_margin {
+    margin: 0 0 0 0 !important;
+}
+
+.some_margin {
+    margin-bottom: 12px !important;
+}
+
+.white_bg {
+    background-color:  white;
+}
+
+.divider2 {
+    height:  60px;
+}
+
+.pad_top {
+    padding-top:  24px;
+}
