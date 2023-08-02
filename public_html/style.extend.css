@@ -690,3 +690,7 @@ li.nav-button div {
 .pad_top {
     padding-top:  24px;
 }
+
+.no-padding {
+    padding: 0px;
+}
