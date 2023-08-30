@@ -1,4 +1,25 @@
+.banner {
+    background-color: #FFFFFF;
+    text-align: center;
+    padding: 5px 0;
+    font-weight: bold;
+    color: #000000;
+    font-size: 1.2em;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
 
+}
+@media (max-width: 900px) {
+    .banner{
+        font-size: .9em;
+    }
+}
 div#logo {
     border-right: none !important;
 }
