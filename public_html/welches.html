@@ -48,6 +48,8 @@
 		}
 		.centered-logo {
 			height: 100px;
+			display: block;
+			margin: 0 auto;
 		}
 		.responsive-div {
 			position: relative;
@@ -91,11 +93,20 @@
 			.mobile-responsive-button {
 				font-size: 12px;
 				padding: 5px 10px;
-				justify-content: center;
-				align-items: center;
 			}
 			.responsive-text {
 				white-space: normal;
+			}
+			#header-wrap {
+				margin-top: 55px; /* Adjusted margin for smaller screens */
+			}
+			.logo-centered {
+				margin-top: 30px; /* Adjusted margin for smaller screens */
+			}
+			#logo {
+				display: flex;
+				align-items: center;
+				justify-content: center;
 			}
 		}
 		@media only screen and (max-width: 768px) {
@@ -130,24 +141,42 @@
 			max-width: 600px;
 			height: auto;
 		}
-		.logo-centered {
-			display: flex;
-			justify-content: center;
-			margin-top: 80px;
+	
+		/* Additional styles for responsive navbar */
+		.banner {
+			background-color: rgb(205, 94, 72);
+			color: white;
+			width: 100%;
+			position: fixed;
+			top: 0;
+			left: 0;
+			right: 0;
+			text-align: center;
+			z-index: 9999; /* Ensure banner is above other content */
 		}
-		.centered-logo {
-			height: 100px;
-			width: auto;
+	
+		.banner a {
+			color: white;
+			text-decoration: none;
+		}
+	
+		#header-wrap {
+			margin-top: 40px; /* Adjusted margin to make space for the banner */
+		}
+	
+		@media only screen and (max-width: 1024px) {
+			#header-wrap {
+				margin-top: 40px; /* Adjusted margin for smaller screens */
+			}
 		}
 	</style>
 	
-	
-	
+
 </head>
 
-<body class="stretched" style="margin-bottom:-90px">
+<body class="stretched" style="margin-bottom: -120px;">
 
-	<div class="content-wrap" style="padding: 0; background: #77C9D4; background-size: cover;">
+<div class="content-wrap" style="padding: 0; background: #77C9D4; background-size: cover;">
 
     <header id="header" class="transparent-header full-header sticky-header" data-sticky-class="not-dark">
         <div id="header-wrap">
@@ -160,27 +189,12 @@
 
                 <div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
 
-<!-- Banner
-============================================= -->
-<div class="banner" style="background-color: rgb(205, 94, 72); color: white; width: 100%; position: fixed; top: 0; left: 0; right: 0; text-align: center;">
-	<a href="https://orchidhealth.applytojob.com/apply" target="_blank" style="color: white; text-decoration: none;">Now Hiring!
-	</div>
-	
-	<div id="header-wrap" style="margin-top: 40px">
-	
-		<div class="container clearfix">
-	
-			<!-- <div class="top-bar">
-				<div>
-					<i class="icon icon-phone"></i> 503-630-8550
-				</div>
-			</div> -->
-	
-			<div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
-
-				
-                <!-- Logo
-                ============================================= -->
+                <!-- Banner -->
+                <div class="banner" style="background-color: rgb(205, 94, 72); color: white; text-align: center;">
+                    <a href="https://orchidhealth.applytojob.com/apply" target="_blank" style="color: white; text-decoration: none;">Now Hiring!</a>
+                </div>
+                
+                <!-- Logo -->
                 <div id="logo">
                     <a href="index.html" class="standard-logo" data-dark-logo="images/orchid-content/logo-white.png">
                         <img class="logo-img" src="images/orchid-content/orchid-logomark-hoodland-clinic.png" alt="Orchid Logo">
@@ -188,8 +202,7 @@
                     <a href="index.html" class="retina-logo" data-dark-logo="images/orchid-content/orchid-logomark-hoodland-clinic.png"><img src="images/orchid-content/logo-dark.png" alt="Orchid Logo"></a>
                 </div><!-- #logo end -->
 
-                <!-- Primary Navigation
-                ============================================= -->
+                <!-- Primary Navigation -->
                 <nav id="primary-menu" class="dark">
                     <ul class="one-page-menu">
                         <li class=""><a href="https://blog.orchidhealth.org"><div style="color:black">Blog</div></a></li>
@@ -200,8 +213,9 @@
         </div>
     </header><!-- #header end -->
 
+
 <!-- Div for Welches Clinic Image -->
-<div class="welches-clinic-image-container" style="text-align: center; margin-bottom: -60px;">
+<div class="welches-clinic-image-container" style="text-align: center; margin-bottom: -30px;">
     <img src="images/orchid-content/welches_clinic.jpeg" alt="Welches Clinic" class="welches-clinic-image" style="width: 100%; height: auto;">
 </div>
 
