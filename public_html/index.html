@@ -2,43 +2,40 @@
 <html dir="ltr" lang="en-US">
 <head>
 
-	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<meta name="author" content="Bang Bang Concept & Creative" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="author" content="Bang Bang Concept & Creative" />
 
-	<!-- Stylesheets
-	============================================= -->
-	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic|Libre+Baskerville:400,700" rel="stylesheet" type="text/css" />
-	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
-	<link rel="stylesheet" href="style.css" type="text/css" />
-	<link rel="stylesheet" href="css/swiper.css" type="text/css" />
-	<link rel="stylesheet" href="css/dark.css" type="text/css" />
-	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
-	<link rel="stylesheet" href="css/animate.css" type="text/css" />
-	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
+    <!-- Stylesheets
+    ============================================= -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic|Libre+Baskerville:400,700" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="stylesheet" href="css/swiper.css" type="text/css" />
+    <link rel="stylesheet" href="css/dark.css" type="text/css" />
+    <link rel="stylesheet" href="css/font-icons.css" type="text/css" />
+    <link rel="stylesheet" href="css/animate.css" type="text/css" />
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
 
-	<link rel="stylesheet" href="style.extend.css" type="text/css" />
-	<link rel="stylesheet" href="main.style.css" type="text/css" />
+    <link rel="stylesheet" href="style.extend.css" type="text/css" />
 
-	<link rel="stylesheet" href="css/responsive.css" type="text/css" />
+    <link rel="stylesheet" href="css/responsive.css" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--[if lt IE 9]>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <![endif]-->
 
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<!--[if lt IE 9]>
-	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
-	<![endif]-->
-
-	<!-- Document Title
-	============================================= -->
-	<title>Orchid Health</title>
-	<link rel="shortcut icon" type="image/jpg" href="favicon.ico"/>
+    <!-- Document Title
+    ============================================= -->
+    <title>Orchid Health</title>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-J6LD7YL94P"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BZL5H7LRJV"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
 
-      gtag('config', 'G-J6LD7YL94P');
+      gtag('config', 'G-BZL5H7LRJV');
     </script>
     <!-- Facebook Pixel Code -->
     <script>
@@ -59,99 +56,543 @@
     &noscript=1"/>
     </noscript>
     <!-- End Facebook Pixel Code -->
+
+<style>
+h1 {
+    font-size: 50px;
+}
+p {
+    font-size: 24px;
+}
+li {
+    font-size: 24px;
+}
+.green-header {
+    font-size: 30px;
+}
+.custom_h2 {
+    font-size: 35px;
+}
+.toggle_on_mobile {
+  display: none;
+}
+.toggle_off_mobile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.margin_bottom {
+    margin-bottom: 30px;
+}
+.hero-image-container {
+    border-radius: 20px;
+    border-width: 5px;
+    border-color: #77C9D4;
+    border-style: solid;
+    overflow: hidden;
+    margin-top: 40px;
+}
+.toggle_on_mobile_hero {
+    display: none;
+}
+#logo img {
+    padding: 10px;
+    height: 70px;
+}
+@media only screen and (max-width: 992px) {
+  h1 {
+    font-size: 32px;
+  }
+  p {
+    font-size: 18px;
+  }
+  li {
+      font-size: 18px;
+  }
+  .hero-header {
+    margin-top: 30px;
+  }
+  .green-header {
+    font-size: 24px;
+  }
+  .mobile_margin_bottom {
+    margin-bottom: 30px;
+  }
+  .custom_h2 {
+    font-size: 24px;
+  }
+  .toggle_on_mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .toggle_off_mobile {
+    display: none;
+  }
+  .toggle_on_mobile_hero {
+    display: block;
+    height: auto;
+    width: 100vw;
+    position: relative;
+  }
+  .toggle_on_mobile_hero img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  #logo img {
+    margin-top: 22px;
+    padding: 10px;
+    height: 60px;
+  }
+}
+</style>
 </head>
 
+<body class="stretched" >
+    
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.7&appId=503274456421790";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<!-- Document Wrapper -->
+<div id="wrapper" class="clearfix">
+
+    <!-- Nav Bar Start -->
+    <header id="header" class="transparent-header full-header" data-sticky-class="not-dark">
+        <div id="header-wrap">
+            <div class="">
+                <div class="top-bar">
+                    <div style="color: #000000" >
+                        <i style="color: #000000" class="icon icon-phone"></i> 541-822-3341
+                    </div>
+                </div>
+
+                <div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
+
+                <!-- Logo -->
+                <div id="logo">
+                    <a href="index.html" class="standard-logo" data-dark-logo="images/orchid-content/orchid_logo_dark.svg">
+                        <img style="padding: 10px;" class="logo-img" src="images/orchid-content/orchid_logo_dark.svg" alt="Orchid Logo">
+                    </a>
+                    <a href="index.html" class="retina-logo" data-dark-logo="images/orchid-content/orchid_logo_dark.svg">
+                        <img style="" src="images/orchid-content/orchid_logo_dark.svg" alt="Orchid Logo">
+                    </a>
+                </div>
+
+                <!-- Primary Nav -->
+                <nav id="primary-menu" class="dark">
+                    <ul class="one-page-menu">
+                        <li style="margin-right: 10px;" class=""><a href="#" data-href="#patients" class="dropdown-toggle"><div>Find a Clinic Near You</div></a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="oakridge.html">Oakridge</a>
+                                </li>
+                                <li>
+                                    <a href="estacada.html">Estacada</a>
+                                </li>
+                                <li>
+                                    <a href="mckenzie.html">McKenzie River</a>
+                                </li>
+                                <li>
+                                    <a href="fernridge.html">Fern Ridge</a>
+                                </li>
+                                <li>
+                                    <a href="sandy.html">Sandy</a>
+                                </li>
+                                <li>
+                                    <a href="hoodland.html">Welches</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li style="margin-right: 10px;" class=""><a href="#" data-href="#jobs"><div>Job Openings</div></a></li>
+                        <li style="margin-right: 10px;" class=""><a href="#" data-href="#system-redesign" class="dropdown-toggle"><div>Our Model</div></a>
+                        	<ul class="dropdown-menu">
+                                <li>
+                                    <a href="#" data-href="#wellbeing-first">Wellbeing First</a>
+                                </li>
+                                <li>
+                                    <a href="#" data-href="#system-redesign">System Redesign</a>
+                                </li>
+                                <li>
+                                    <a href="#" data-href="#outcomes">Outcomes & Recognition</a>
+                                </li>
+                        	</ul>
+                        </li>
+                        <li style="margin-right: 10px;" class=""><a href="#"><div>Resources</div></a>
+                        	<ul class="dropdown-menu">
+                        			<li>
+                        				<a href="https://blog.orchidhealth.org">Orchid Blog</a>
+                        			</li>
+                        			<li>
+                        				<a href="#" data-href="#press">Press</a>
+                        			</li>
+                        	</ul>
+                        </li>
+
+                        <li class="nav-button"><a href="https://31614-1.portal.athenahealth.com"><div style="padding-left: 10px; padding-right: 10px;">Patient Portal</div></a></li>
+                    </ul>
+                    <!-- Custom Navigation Styles -->
+                    <style>
+                        #primary-menu ul li a div {
+                            color: #000000 !important;
+                            font-size: 18px;
+                            padding-left: 20px;
+                            padding-right: 20px;
+                        }
+                       #header-wrap {
+                            padding-left: 20px;
+                            padding-right: 20px;
+                        }
+                        @media only screen and (max-width: 1500px) {
+                            #primary-menu ul li a div {
+                                font-size: 14px;
+                                padding-left: 0px;
+                                padding-right: 0px;
+                            }
+
+                        }
+                    </style>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- Nav Bar End -->
+    
+    <!-- Mobile Hero Image -->
+    <div class="toggle_on_mobile_hero">
+        <img src="images/orchid-content/Orchid_Team_Hero_Large.png" alt="Orchid Team">
+    </div>
+
+    <!-- Content -->
+    <section id="content">
+    	<div class="content-wrapper">
+            <!-- Hero -->
+            <div style="padding-bottom: 50px; display: flex; flex-direction: row-reverse; justify-content: center; flex-wrap: wrap" class="container clearfix">
+                <div class="col-sm-12 toggle_off_mobile">
+                    <div class="hero-image-container mobile_margin_bottom">
+                        <img src="images/orchid-content/Orchid_Team_Hero_Large.png" class="img-responsive center-block">
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <h1 class="hero-header" style="margin-bottom: 10px; text-align: center; margin-top: 40px">Hi, we're orchid</h1>
+                    <p style="font-size: 19px; margin-bottom: 20px; font-style: italic; text-align: center">Healthy Rural Communities, Healthcare Revolutionized!</p>
+                    <h3 style="font-size: 24px; text-align: center">We're on a mission to advance a new model for community health to thrive - based on relationships, joy in work, and health equity.</h3>
+                </div>
+            </div>
+
+            <!-- Patients -->
+            <div id="patients" style="padding-top: 50px; padding-bottom: 50px; background-color: #E9F2F4" class="row clearfix">
+                <div class="container clearfix">
+                    <div class="row">
+                        <div class="col-md-12" style="text-align: center">
+                            <h1 style="margin-bottom: 50px">Patients</h1>
+                        </div>
+                        <div class="col-md-12" style="font-size: 24px; text-align: center">
+                            <p>We currently have clinics in six Oregon communities offering unrushed visits, whole-person care, and access when you need it.</p>
+                            <p>Our clinics are local and independent, a core part of our communities, and have been recognized for their industry-leading patient care outcomes.</p>
+                            <p class="green-header" style="color: #50898C; text-align: center; font-weight: bold; font-size:24px">Click on a community below to learn more about services offered and how to establish care!</p>
+                        </div>
+                    </div>
+                        <!-- <div class="col-md-12" style="background-color: #8AC7D2; border-radius: 10px;"> -->
+                    <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap" class="row" >
+                        <article class="col-md-2 col-sm-6 col-xs-6 no-padding">
+                            <div class="portfolio-image" style="padding-top: 30px">
+                                <a href="oakridge.html" style="text-align: center;">
+                                    <img src="images/orchid-content/oakridge-portal-icon2.png" alt="Estacada" style="width: 100%; height: auto; padding: 10px">
+                                    <p style="font-size: 20px">Oakridge, OR</p>
+                                </a>
+                            </div>
+                        </article>
+                        <article class="col-md-2 col-sm-6 col-xs-6 no-padding">
+                            <div class="portfolio-image" style="padding-top: 30px">
+                                <a href="estacada.html" style="text-align: center;">
+                                    <img src="images/orchid-content/estacada-portal-icon2.png" alt="Estacada" style="width: 100%; height: auto; padding: 10px">
+                                    <p style="font-size: 20px">Estacada, OR</p>
+                                </a>
+                            </div>
+                        </article>
+                        <article class="col-md-2 col-sm-6 col-xs-6 no-padding">
+                            <div class="portfolio-image" style="padding-top: 30px">
+                                <a href="mckenzie.html" style="text-align: center;">
+                                    <img src="images/orchid-content/mckenzie-portal-icon2.png" alt="McKenzie River, OR" style="width: 100%; height: auto; padding: 10px">
+                                    <p style="font-size: 20px">McKenzie River, OR</p>
+                                </a>
+                            </div>
+                        </article>
+                        <article class="col-md-2 col-sm-6 col-xs-6 no-padding">
+                            <div class="portfolio-image" style="padding-top: 30px">
+                                <a href="fernridge.html" style="text-align: center;">
+                                    <img src="images/orchid-content/fern-ridge-portal-icon2.png" alt="Fern Ridge, OR" style="width: 100%; height: auto; padding: 10px">
+                                    <p style="font-size: 20px">Fern Ridge, OR</p>
+                                </a>
+                            </div>
+                        </article>
+                        <article class="col-md-2 col-sm-6 col-xs-6 no-padding">
+                            <div class="portfolio-image" style="padding-top: 30px">
+                                <a href="sandy.html" style="text-align: center;">
+                                    <img src="images/orchid-content/sandy-portal-icon2.png" alt="Sandy, OR" style="width: 100%; height: auto; padding: 10px">
+                                    <p style="font-size: 20px">Sandy, OR</p>
+                                </a>
+                            </div>
+                        </article>
+                        <article class="col-md-2 col-sm-6 col-xs-6 no-padding">
+                            <div class="portfolio-image" style="padding-top: 30px">
+                                <a href="hoodland.html" style="text-align: center;">
+                                    <img src="images/orchid-content/welches-portal-icon2.png" alt="Welches, OR" style="width: 100%; height: auto; padding: 10px">
+                                    <p style="font-size: 20px">Welches, OR</p>
+                                </a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+
+            <!--Jobs Section -->
+            <div id="jobs" style="padding-top: 50px; padding-bottom: 50px" class="container clearfix">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 style="margin-bottom: 20px; text-align: center">Join an Organization that puts its <span style="font-weight: bold; color: #414141">People First</span></h1>
+                        <p style="margin-bottom: 0px; text-align: center">Interested in helping grow a healthcare model based on trusting relationships, joy in work, and health equity? Orchid Health might be just the place for you!</p>
+                        <div style="padding: 50px"><iframe width="560" height="315" src="https://www.youtube.com/embed/R5RJFEDOF1Y?si=3MPUHLwkHEzKy6sH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                        <p style="margin-bottom: 20px; text-align: center">Orchid Health was founded 10 years ago with the belief that the most effective way to improve the health of our communities is through integrated patient-centered care that takes the time to listen to and build trusting relationships with each patient.</p>
+                        <p style="margin-bottom: 20px; text-align: center">We are committed to our communities and each other and are proud of the positive feedback and reputation that we have built. We currently see thousands of patients at our Oregon clinic locations, all supported by a talented, passionate, and dedicated staff.</p>
+                        <div style="text-align: center"><a class="button button-border button-rounded button-large buton-blue-border noleftmargin nobottommargin" href="https://orchidhealth.applytojob.com/apply" target="_blank">See Job Opportunities</a></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Model Section -->
+            <div id="wellbeing-first" style="padding-top: 50px; padding-bottom: 50px; background-color: #E9F2F4" class="row clearfix">
+                <div class="container clearfix">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h1 style="margin-bottom: 20px; text-align: center">Our <span style="font-weight: bold; color: #414141">Wellbeing-First</span> Model</h1>
+                            <p class="green-header" style="color: #50898C; text-align: center; font-weight: bold;">PEOPLE > PROFITS</p>
+                            <p style="margin-bottom: 20px; text-align: center">We believe that a healthy healthcare organization starts with care team members who are cared for and have the autonomy to do what they know is best for their patients and community.</p></p>
+                        </div>   
+                        <div class="col-md-4 col-sm-12" style="padding: 20px">
+                            <div style="border-radius: 20px; border-width: 5px; border-color: #77C9D4; border-style: solid; overflow: hidden;">
+                                <img src="images/orchid-content/Orchid_Health_Flywheel_Wellbeing_Model.png" class="img-responsive center-block">
+                            </div>
+                        </div>
+                        <div class="col-md-8 col-sm-12" style="padding: 20px; padding-top: 10px;">
+                            <p style="">We call this our wellbeing-first model of community health as it places the wellbeing of our caregivers as our top priority, which in turn supports exceptional patient care!</p>
+                            <p style="">Part of our mission to advance a new model for community health to thrive is the creation of our Wellbeing-First Fellowship - <a href="https://www.orchidwellbeingfirst.org/" target="_blank">see here</a> for more information on how we're working to scale our impact. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Healthcare Industry Section -->
+            <div id="system-redesign" style="padding-top: 50px; padding-bottom: 50px" class="row clearfix">
+                <div class="container clearfix">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h1 style="margin-bottom: 50px; text-align: center">A System in Need of Redesign</h1>
+                        </div>
+                    </div>
+                    <div class="row margin_bottom" style="display: flex; flex-direction: row-reverse; justify-content: center; flex-wrap: wrap">
+                        <div class="col-md-5 col-sm-12" style="padding: 20px">
+                            <img class="mobile_margin_bottom" style="border-radius: 20px; border-width: 5px; border-color: #77C9D4; border-style: solid;" src="images/orchid-content/Healthcare_Rural_Park.png" class="img-responsive center-block">
+                        </div>
+                        <div class="col-md-7 col-sm-12" style="padding: 20px">
+                            <p class="green-header" style="color: #50898C; font-weight: bold; line-height: 1.1">The healthcare industry around us is not working for patients or caregivers - especially in rural communities.</p>
+                            <p style="margin-bottom: 0px">This has resulted in:</p>
+                            <ul style="padding-left: 20px">
+                                <li style="">Corporatization of care (loss of humanity)</li>
+                                <li style="">Extreme burnout among healthcare professionals</li>
+                                <li style="">Rural clinics shutting down or being acquired by hospitals</li>
+                                <li style="">Patients being left without local access to quality care</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 toggle_off_mobile">
+                            <div style="text-align: center">
+                                <a class="button button-border button-rounded buton-blue-border noleftmargin nobottommargin" href="learn/Orchid v Status Quo_v1.pdf" target="_blank">See how orchid health compares to the status quo</a>
+                            </div>
+                        </div>
+                        <div class="col-md-12 toggle_on_mobile">
+                            <div style="text-align: center">
+                                <p>See how Orchid Health compares to the status quo</p>
+                                <a class="button button-border button-rounded buton-blue-border noleftmargin nobottommargin" href="learn/Orchid v Status Quo_v1.pdf" target="_blank">Open PDF</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Wellbeing-First Model Section -->
+            <div id="outcomes" style="padding-top: 50px; padding-bottom: 50px; background-color: #E9F2F4" class="row clearfix">
+                <div class="container clearfix">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h1 style="margin-bottom: 50px; text-align: center">Model Outcomes & Recognition</h1>
+                        </div>
+                        <div class="col-md-12" style="padding-bottom: 50px">
+                            <div style="background-color: white; border-radius: 20px; display: flex; flex-direction: row; justify-content: space-around; align-items: center; flex-wrap: wrap">
+                                <img style="margin: 10px" src="images/orchid-content/badges/Patient_Centered.png" class="img-responsive">
+                                <a target="_blank" href="https://oregonbusiness.com/19238-2021-100-best-companies-to-work-for-in-oregon/">
+                                    <img style="margin: 10px" src="images/orchid-content/badges/100_Best_Companies.png" class="img-responsive center-block">
+                                </a>
+                                <a target="_blank" href="https://www.oregonlive.com/business/2024/09/top-workplaces-2024-123-great-places-to-work-in-oregon-and-sw-washington.html">
+                                    <img style="margin: 10px" src="images/orchid-content/badges/The_Oregonian.png" class="img-responsive center-block">
+                                </a>
+                                <div>
+                                    <img style="margin: 10px" src="images/orchid-content/badges/2018_SBHC_Excellence_Award.png" class="img-responsive center-block">
+                                    <p style="font-size: 10px; text-align: center">2018 SBHC Excellence Award</p>
+                                </div>
+                                <a target="_blank" href="https://www.opb.org/article/2020/12/21/rural-clinics-fill-healthcare-gaps-across-oregon/">
+                                    <div> 
+                                        <img style="margin: 10px" src="images/orchid-content/badges/OHSU-2020_Rural_Health_Hero_of_the_Year.png" class="img-responsive center-block">
+                                        <p style="font-size: 10px; text-align: center; color: #414141">2020 Rural Health<br />Hero of the Year</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div style="padding-left: 60px">
+                                <ul style="font-size: 24px;">
+                                    <li style="padding-bottom: 10px">Clinics awarded as four and five-star patient-centered primary care homes (PCPCH) - the highest recognition available by the State of Oregon.</li>
+                                    <li style="padding-bottom: 10px">40% reduction in ED utilization over initial three year period when opening our first rural health clinic</li>
+                                    <li style="padding-bottom: 10px">eNPS score 3X primary care industry average</li>
+                                    <li style="padding-bottom: 10px">90% employee retention rate in 2023</li>
+                                    <li style="padding-bottom: 10px">Average a 9.5 out of 10 based on feedback from over 1,000 patients answering the following question: "on a scale of 1 to 10, how respected did you feel at Orchid"</li>
+                                    <li style="padding-bottom: 10px">Achieved a 5 to 10% net operating margin year-over-year amidst 10 to 20% annual growth</li>
+                                </ul>
+                            </div>
+                        </div>   
+                    </div>
+                </div>
+            </div>
+
+            <!-- Email Subscribe Section -->
+            <div style="padding-top: 50px; padding-bottom: 50px" class="row clearfix">
+                <div class="container clearfix">
+                    <div class="row">
+                        <div class="col-md-12" style="text-align: center">
+                            <p class="custom_h2" style="font-weight: bold; text-align: center;">Want to learn more about how our <span style="font-weight: bold">Wellbeing-First Model</span> can support your business?</p>
+                            <div class="toggle_off_mobile">
+                                <a class="button button-border button-rounded button-large buton-blue-border noleftmargin nobottommargin" href="https://www.orchidwellbeingfirst.org/stay-connected" target="_blank">subscribe and we'll get in touch!</a>
+                            </div>
+                            <div class="toggle_on_mobile">
+                                <p>Subscribe and we'll get in touch!</p>
+                                <a class="button button-border button-rounded button-large buton-blue-border noleftmargin nobottommargin" href="https://www.orchidwellbeingfirst.org/stay-connected" target="_blank">subscribe</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
 
-<body class="stretched" style="margin-bottom:-120px">
+        </div>
+    </section>
+    <!-- Content end -->
 
-	<div class="content-wrap" style="background: #77C9D4; background-size: cover; padding-top: 0px">
-		<div class="promo_banner" style="text-align: center; padding: 15px 0px 15px 0px; background-color: #449EA5; margin-bottom: 20px">
-			<p style="color: black; font-size: 19px; margin-bottom: 0px">We're hiring! Check out our job postings <a style="color: white; border-bottom: 1px solid white" target="_blank" href="https://orchidhealth.applytojob.com/apply">here</a></p>
-		</div>
-		<nav id="primary-menu" class="dark" style="padding: 0px 15px;">
-			<ul class="one-page-menu">
-				<li class="main-nav-button"><a href="https://31614-1.portal.athenahealth.com"><div>Patient Portal</div></a></li>
-			</ul>
-		</nav>
+    <!-- Footer -->
+    <footer>
+        <!-- Press Section -->
+        <div id="press" class="container clearfix" style="margin-bottom: 60px">
+            <div class="row clearfix">
+                <div class="col-sm-12 text-center">
+                    <h2>Press</h2>
+                </div>
+            </div>
+            <div class="row clearfix">
+                <div class="col-md-4">
+                    <div class="press-box">
+                        <a href="https://www.journalofhealthdesign.com/JHD/podcasts/view/607">
+                            <img src="images/orchid-content/badges/journal_of_health_design.png" class="img-responsive center-block" style="height: 150px; margin-bottom: 20px">
+                        </a>
+                        <a href="https://www.journalofhealthdesign.com/JHD/podcasts/view/607" target="_blank" class="white-link">
+                            The Health Design Podcast
+                        </a>
+                        <h4 style="margin-top: 20px;">
+                            Orion Falvey, Interviewed by Moyez Jiwa
+                        </h4>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="press-box">
+                        <a href="https://www.klcc.org/news/2022-09-14/every-day-gets-better-and-better-mckenzie-river-clinic-perseveres-through-2nd-anniversary-of-devastating-fire">
+                            <img src="images/orchid-content/badges/klcc_logo.webp" class="img-responsive center-block" style="height: 150px; margin-bottom: 20px">
+                        </a>
+                        <a href="https://www.klcc.org/news/2022-09-14/every-day-gets-better-and-better-mckenzie-river-clinic-perseveres-through-2nd-anniversary-of-devastating-fire" target="_blank" class="white-link">
+                            Oregon's oldest rural health clinic perseveres two years after devastating Holiday Farm Fire
+                        </a>
+                        <h4 style="margin-top: 20px;">
+                            KLCC News
+                        </h4>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="press-box">
+                        <a href="https://www.sandypost.com/news/welches-gains-new-healthcare-provider-orchid-health-opens-hoodland-clinic/article_696fc464-9aea-11ef-992a-af43a1c8f474.html">
+                            <img src="images/orchid-content/badges/sandy_post.png" class="img-responsive center-block" style="height: 150px; margin-bottom: 20px">
+                        </a>
+                        <a href="https://www.sandypost.com/news/welches-gains-new-healthcare-provider-orchid-health-opens-hoodland-clinic/article_696fc464-9aea-11ef-992a-af43a1c8f474.html" target="_blank" class="white-link">
+                            Welches gains new healthcare provider, Orchid Health opens Hoodland clinic
+                        </a>
+                        <h4 style="margin-top: 20px;">
+                            Sandy Post
+                        </h4>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-		<div id="section-about" class="center page-section" style="margin-bottom: 350px; background: #77C9D4; background-size: cover;">
-			<div class="container clearfix">
-				<img src="images/orchid-content/logo-dark.png">
-				<h2 class="divcenter bottommargin" style="max-width: 700px; font-size: 40px;"  data-animate="fadeInDown" >Hi, we're orchid.<br/> <span style="color:#ffffff">Exceptional Local Healthcare</span></h2>
-				<p class="divcenter" style="max-width: 1000px; font-size: 25px;" data-animate="fadeInDown">We believe rural communities deserve the best healthcare.</p>
-				<p class="divcenter" style="max-width: 1000px; font-size: 25px;" data-animate="fadeInDown">We’re here for you, offering local, comprehensive + personalized care.</p>
-				<p style="font-size:22px; color:#ffffff"; data-animate="fadeInDown">Please choose your location below</p>
-				<br>
-				<br>
-				<div class="content-wrap" style="margin-top:-80px; margin-bottom: -80px">
-					<div id="portfolio" class="portfolio row portfolio-2 clearfix" style="padding-bottom: 50px;">
-						<article class="col-md-2 col-sm-4 col-xs-6 no-padding">
-							<div class="portfolio-image">
-								<a href="oakridge.html">
-									<img src="images/orchid-content/oakridge-portal-icon.png" alt="Oakridge" style="width: 100%; height: auto">
-								</a>
-							</div>
-						</article>
-				
-						<article class="col-md-2 col-sm-4 col-xs-6 no-padding">
-							<div class="portfolio-image">
-								<a href="estacada.html">
-									<img src="images/orchid-content/estacada-portal-icon.png" alt="Estacada" style="width: 100%; height: auto">
-								</a>
-							</div>
-						</article>
-				
-						<article class="col-md-2 col-sm-4 col-xs-6 no-padding">
-							<div class="portfolio-image">
-								<a href="mckenzie.html">
-									<img src="images/orchid-content/mckenzie-portal-icon.png" alt="McKenzie River, OR" style="width: 100%; height: auto">
-								</a>
-							</div>
-						</article>
-				
-						<article class="col-md-2 col-sm-4 col-xs-6 no-padding">
-							<div class="portfolio-image">
-								<a href="fernridge.html">
-									<img src="images/orchid-content/fern-ridge-portal-icon.png" alt="Fern Ridge, OR" style="width: 100%; height: auto">
-								</a>
-							</div>
-						</article>
-				
-						<article class="col-md-2 col-sm-4 col-xs-6 no-padding">
-							<div class="portfolio-image">
-								<a href="sandy.html">
-									<img src="images/orchid-content/sandy-portal-icon.png" alt="Sandy, OR" style="width: 100%; height: auto">
-								</a>
-							</div>
-						</article>
-				
-						<article class="col-md-2 col-sm-4 col-xs-6 no-padding">
-							<div class="portfolio-image">
-								<a href="hoodland.html">
-									<img src="images/orchid-content/welches-portal-icon.png" alt="Welches, OR" style="width: 100%; height: auto">
-								</a>
-							</div>
-						</article>
-					</div>
-				</div>
-				<p style="color:#ffffff; text-align:center">&copy;2020 Orchid Health Collective - All rights reserved </p><br/><br/>
-			</div>
-			<div class="clear"></div>
-		</div>            
-		</div>
+        <div class="container-fluid clearfix footer-content">
+            <div class="row clearfix">
+                <div class="col-md-3 copyright col-sm-12">
+                    <div class="col-md-4">
+                        <img src="images/orchid-content/footer/logo.png" class="img-responsive">
+                    </div>
+                    <div class="col-md-8 col-sm-12">
+                        2025 Orchid
+                        <br>Health Collective
+                        <br>All Rights Reserved
+                    </div>
+                </div>
+                <div class="col-md-9 footer-links">
+                    <a href="https://blog.orchidhealth.org" target="_blank">
+                        ORCHID BLOG
+                    </a>
+                    <a href="https://docs.google.com/document/u/1/d/e/2PACX-1vTMjTylUDofitKDo7I0kFOrEvsB_cXQZTHy1PixCy2o-5dXQPQKe1kmUO6Ntsp03COVlojqDUP0TWF8/pub" target="_blank">
+                        WEBSITE PRIVACY POLICY
+                    </a>
+                    <a href="legal/Nondiscrimination and Accessibility Statement.pdf" target="_blank">
+                        NOTICE OF NONDISCRIMINATION
+                    </a>
+                    <a href="legal/Orchid Health Notice of Privacy Practices.pdf" target="_blank">
+                        HIPAA NOTICE
+                    </a>
+                    <a href="mailto:jonnycantrell@orchidhealth.org?subject=Media Contact">
+                        MEDIA CONTACT
+                    </a>
+                </div>
+            </div>
+        </div>
 
-<!-- Go To Top
-============================================= -->
+    </footer>
+
+</div>
+<!-- Wrapper end -->
+
+<!-- Go To Top -->
 <div id="gotoTop" class="icon-angle-up"></div>
 
-<!-- External JavaScripts
-============================================= -->
+<!-- External JavaScripts -->
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/plugins.js"></script>
 
-<!-- Footer Scripts
-============================================= -->
+<!-- Footer Scripts -->
 <script type="text/javascript" src="js/functions.js"></script>
 <script type="text/javascript" src="js/script.extend.js"></script>
 
