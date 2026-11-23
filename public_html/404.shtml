@@ -4,6 +4,9 @@
 <title>File Not Found</title>
 <meta http-equiv="content-type" content="text/html; charset=utf-8" >
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Privacy choices: must load before any optional third-party script -->
+<link rel="stylesheet" href="/css/consent.css" type="text/css" />
+<script src="/js/consent.js" data-analytics="off"></script>
 <style type="text/css">
 body {
   background-color: #eee;
@@ -79,6 +82,7 @@ a {
       <p class="lead">If you think what you're looking for should be here, please contact the site owner.</p>
     </div>
   </div>
+  <a href="#" data-consent-open class="oc-privacy-link">Privacy settings</a>
 </div>
 
 </body>

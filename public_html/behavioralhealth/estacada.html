@@ -7,7 +7,7 @@
 
     <!-- Stylesheets
     ============================================= -->
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic|Libre+Baskerville:400,700" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="../css/fonts-local.css" type="text/css" />
     <link rel="stylesheet" href="../css/bootstrap.css" type="text/css" />
     <link rel="stylesheet" href="../style.css" type="text/css" />
     <link rel="stylesheet" href="../css/swiper.css" type="text/css" />
@@ -28,47 +28,14 @@
     ============================================= -->
     <title>Orchid Health - Wade Creek Behavioral Health</title>
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-21QHRT2W2N"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-21QHRT2W2N');
-    </script>
-    <!-- Facebook Pixel Code -->
-    <script>
-    !function(f,b,e,v,n,t,s)
-    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-    n.queue=[];t=b.createElement(e);t.async=!0;
-    t.src=v;s=b.getElementsByTagName(e)[0];
-    s.parentNode.insertBefore(t,s)}(window,document,'script',
-    'https://connect.facebook.net/en_US/fbevents.js');
-     fbq('init', '290368425435821'); 
-    fbq('track', 'PageView');
-    </script>
-    <noscript>
-     <img height="1" width="1" 
-    src="https://www.facebook.com/tr?id=290368425435821&ev=PageView
-    &noscript=1"/>
-    </noscript>
-    <!-- End Facebook Pixel Code -->
+    <!-- Privacy choices: must load before any optional third-party script -->
+    <link rel="stylesheet" href="../css/consent.css" type="text/css" />
+    <script src="../js/consent.js" data-analytics="off"></script>
 
 </head>
 
 <body class="stretched" >
     
-   <div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.7&appId=503274456421790";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
 
 <!-- Document Wrapper
 ============================================= -->
@@ -388,6 +355,9 @@
                     </a>
                     <a href="mailto:jonnycantrell@orchidhealth.org?subject=Media Contact">
                         MEDIA CONTACT
+                    </a>
+                    <a href="#" data-consent-open>
+                        PRIVACY SETTINGS
                     </a>
                 </div>
             </div>

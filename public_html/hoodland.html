@@ -7,7 +7,7 @@
 
     <!-- Stylesheets
     ============================================= -->
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic|Libre+Baskerville:400,700" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="css/fonts-local.css" type="text/css" />
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
     <link rel="stylesheet" href="style.css" type="text/css" />
     <link rel="stylesheet" href="css/swiper.css" type="text/css" />
@@ -28,48 +28,14 @@
     ============================================= -->
     <title>Orchid Health - Hoodland Clinic</title>
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-D8H3QB5144"></script>
-    <script type="text/javascript" src="//cdn.rlets.com/capture_configs/6ac/14c/943/54042328065a495f3877a6d.js" async="async"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+    <!-- Privacy choices: must load before any optional third-party script -->
+    <link rel="stylesheet" href="css/consent.css" type="text/css" />
+    <script src="js/consent.js"></script>
 
-      gtag('config', 'G-D8H3QB5144');
-    </script>
-    
-    <!-- Facebook Pixel Code -->
-    <script>
-    !function(f,b,e,v,n,t,s)
-    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-    n.queue=[];t=b.createElement(e);t.async=!0;
-    t.src=v;s=b.getElementsByTagName(e)[0];
-    s.parentNode.insertBefore(t,s)}(window,document,'script',
-    'https://connect.facebook.net/en_US/fbevents.js');
-     fbq('init', '290368425435821'); 
-    fbq('track', 'PageView');
-    </script>
-    <noscript>
-     <img height="1" width="1" 
-    src="https://www.facebook.com/tr?id=290368425435821&ev=PageView
-    &noscript=1"/>
-    </noscript>
-    <!-- End Facebook Pixel Code -->
 </head>
 
 <body class="stretched" >
     
-   <div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.7&appId=503274456421790";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
 
 <!-- Document Wrapper
 ============================================= -->
@@ -1397,8 +1363,8 @@
                     <div class="col-md-5">
                         <div class="news col-padding">
                             <h2>Clinic News</h2>
-                           <div class="fb-page" data-href="https://www.bizjournals.com/portland/news/2022/08/19/health-care-of-the-future-oren-falvey.html" data-tabs="timeline" data-width="400" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/SandyClinic" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/SandyClinic">Health Care of the Future Leadership Award: Orion Falvey of Orchid Health, Portland Biz</a></blockquote></div>
-                           <div class="fb-page" data-href="https://www.bizjournals.com/portland/event/167954/2022/hr-summit-and-healthiest-employers-of-oregon" data-tabs="timeline" data-width="400" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/SandyClinic" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/SandyClinic">Orchid Health Listed as one of the Healthiest Employers in Oregon, Portland Biz</a></blockquote></div>
+                           <p><a href="https://www.bizjournals.com/portland/news/2022/08/19/health-care-of-the-future-oren-falvey.html" target="_blank" rel="noopener">Health Care of the Future Leadership Award: Orion Falvey of Orchid Health, Portland Biz</a></p>
+                           <p><a href="https://www.bizjournals.com/portland/event/167954/2022/hr-summit-and-healthiest-employers-of-oregon" target="_blank" rel="noopener">Orchid Health Listed as one of the Healthiest Employers in Oregon, Portland Biz</a></p>
                         </div>
                     </div>
                     </div> -->
@@ -1533,6 +1499,9 @@
                     </a>    
                     <a href="#" data-scrollto="#subscribe">
                         SUBSCRIBE TO NEWS LETTER
+                    </a>
+                    <a href="#" data-consent-open>
+                        PRIVACY SETTINGS
                     </a>
                 </div>
             </div>

@@ -647,6 +647,19 @@ li.nav-button div {
     #header, #header-wrap, #logo img {
         height: 60px;
     }
+    /* Keep the floated logo/menu inside the 60px header so they don't squeeze #content.
+       Extra top padding keeps the menu clear of the phone number in the top bar. */
+    #header #logo img {
+        height: 60px;
+    }
+    #header:not(.sticky-header) #primary-menu > ul > li > a {
+        padding-top: 32px;
+        padding-bottom: 6px;
+    }
+}
+/* #content is a block formatting context (overflow: hidden); never let header floats narrow it */
+#content {
+    clear: both;
 }
 @media (min-width: 992px) and (max-width: 1280px){
     #primary-menu ul li > a{

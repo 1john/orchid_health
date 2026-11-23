@@ -7,7 +7,7 @@
 
     <!-- Stylesheets
     ============================================= -->
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic|Libre+Baskerville:400,700" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="css/fonts-local.css" type="text/css" />
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
     <link rel="stylesheet" href="style.css" type="text/css" />
     <link rel="stylesheet" href="css/swiper.css" type="text/css" />
@@ -28,34 +28,10 @@
     ============================================= -->
     <title>Orchid Health</title>
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BZL5H7LRJV"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+    <!-- Privacy choices: must load before any optional third-party script -->
+    <link rel="stylesheet" href="css/consent.css" type="text/css" />
+    <script src="js/consent.js"></script>
 
-      gtag('config', 'G-BZL5H7LRJV');
-    </script>
-    <!-- Facebook Pixel Code -->
-    <script>
-    !function(f,b,e,v,n,t,s)
-    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-    n.queue=[];t=b.createElement(e);t.async=!0;
-    t.src=v;s=b.getElementsByTagName(e)[0];
-    s.parentNode.insertBefore(t,s)}(window,document,'script',
-    'https://connect.facebook.net/en_US/fbevents.js');
-     fbq('init', '290368425435821'); 
-    fbq('track', 'PageView');
-    </script>
-    <noscript>
-     <img height="1" width="1" 
-    src="https://www.facebook.com/tr?id=290368425435821&ev=PageView
-    &noscript=1"/>
-    </noscript>
-    <!-- End Facebook Pixel Code -->
 
 <style>
 h1 {
@@ -152,14 +128,6 @@ li {
 
 <body class="stretched" >
     
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.7&appId=503274456421790";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
 
 <!-- Document Wrapper -->
 <div id="wrapper" class="clearfix">
@@ -360,7 +328,14 @@ li {
                     <div class="col-md-12">
                         <h1 style="margin-bottom: 20px; text-align: center">Join an Organization that puts its <span style="font-weight: bold; color: #414141">People First</span></h1>
                         <p style="margin-bottom: 0px; text-align: center">Interested in helping grow a healthcare model based on trusting relationships, joy in work, and health equity? Orchid Health might be just the place for you!</p>
-                        <div style="padding: 50px"><iframe width="560" height="315" src="https://www.youtube.com/embed/R5RJFEDOF1Y?si=3MPUHLwkHEzKy6sH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                        <div style="padding: 50px">
+                            <div class="oc-embed" data-consent-embed data-src="https://www.youtube-nocookie.com/embed/R5RJFEDOF1Y?autoplay=1" data-title="Why Work at Orchid Health (YouTube video)" style="background-image: url('images/orchid-content/video-thumb-R5RJFEDOF1Y.jpg');">
+                                <div class="oc-embed-overlay">
+                                    <button type="button" class="oc-embed-play" data-consent-embed-play>&#9654; Play video: Why Work at Orchid Health</button>
+                                    <p>Playing this video loads it from YouTube (Google), which may set cookies and collect data about your device. Nothing is loaded from YouTube until you click play.</p>
+                                </div>
+                            </div>
+                        </div>
                         <p style="margin-bottom: 20px; text-align: center">Orchid Health was founded 10 years ago with the belief that the most effective way to improve the health of our communities is through integrated patient-centered care that takes the time to listen to and build trusting relationships with each patient.</p>
                         <p style="margin-bottom: 20px; text-align: center">We are committed to our communities and each other and are proud of the positive feedback and reputation that we have built. We currently see thousands of patients at our Oregon clinic locations, all supported by a talented, passionate, and dedicated staff.</p>
                         <div style="text-align: center"><a class="button button-border button-rounded button-large buton-blue-border noleftmargin nobottommargin" href="https://orchidhealth.applytojob.com/apply" target="_blank">See Job Opportunities</a></div>
@@ -577,6 +552,9 @@ li {
                     </a>
                     <a href="mailto:jonnycantrell@orchidhealth.org?subject=Media Contact">
                         MEDIA CONTACT
+                    </a>
+                    <a href="#" data-consent-open>
+                        PRIVACY SETTINGS
                     </a>
                 </div>
             </div>
